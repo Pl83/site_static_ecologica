@@ -5,10 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inscription</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  
-<main>
+
+<?php require_once "template/header.php"?>
+
+  <main>
     <img src="img/coquelicot_charbon.png" alt="coquelicot">
     <img src="img/coquelicot_jaune.png" alt="coquelicot">
     <img src="img/coquelicot_transparent.png" alt="coquelicot">
@@ -69,6 +72,7 @@
     </div>
 
   </main>
+<?php require_once "template/footer.php"?>
 
 </body>
 </html>
