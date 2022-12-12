@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.ecologica-menu {
+  background-color: #293946;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+  height: 70px;
+}
+.ecologica-menu img {
+  height: 40px;
+  width: auto;
+}
+.ecologica-menu ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 2em;
+}
+.ecologica-menu ul a {
+  color: white;
+  text-decoration: none;
+}
+.ecologica-menu .logo-menu {
+  display: flex;
+  align-items: center;
+  gap: 0 2em;
+}
+
+.candidater a {
+  color: white;
+  text-decoration: none;
+  background-color: #FB6A35;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
