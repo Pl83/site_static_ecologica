@@ -11,6 +11,30 @@
 
 <?php require_once "template/header.php"?>
 
+  <div class="centipede">
+    <div class="chat">
+      <h1>Procédure pour envoyer votre candidature</h1>
+      <p>Vous pouvez candidater en téléchargements le dossier d'admission que vous souhaitez suivre.</p>
+      <div class="button">
+        <div class="input-1">Webinaire</div>
+        <div class="input-2">Nous contacter</div>
+      </div>
+    </div>
+    <div class="chien">
+      <img src="./img/image-8.png" alt="">
+      <div class="miroir">
+        <div class="blanc">
+          <h3>Vous souhaitez mettre toutes les chances de votre côté ?</h3>
+          <ul>
+            <li>Faites-nous part des oeuvres et des expériences qui vous ont inspiré</li>
+            <li>Renseignez-vous sur les spécificités d'Ecologica et faites-nous part de ce que cette école peut vous apporter</li>
+          </ul>
+        </div>
+        <p>Nous contacter : contact@ecologica-education.fr</p>
+      </div>
+    </div>
+  </div>
+
   <main>
     <img src="img/coquelicot_charbon.png" alt="coquelicot">
     <img src="img/coquelicot_jaune.png" alt="coquelicot">
