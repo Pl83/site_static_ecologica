@@ -33,4 +33,40 @@
 
 </div>
 
+<div class="card_ecologica">
+    <div class="card_formations">
+        <div class="div_card">
+            <img src="img/image.png" alt="book" class="vector">
+            <div>
+                <h2>Bachelor</h2>
+                <img src="img/Vector2.png" alt="validé">
+            </div>
+            <h3>1ère année</h3>
+        </div>
+        <button class="button_green">Plus d'informations >></button>
+    </div>
+    <div class="card_formations">
+        <div class="div_card">
+            <img src="img/Vector1.png" alt="medaille" class="vector">
+            <div>
+                <h2>Bachelor</h2>
+                <img src="img/Vector2.png" alt="validé">
+            </div>
+            <h3>3e année</h3>
+        </div>
+        <button class="button_yellow">Plus d'informations >></button>
+    </div>
+    <div class="card_formations">
+        <div class="div_card">
+            <img src="img/Vector3.png" alt="chapeau" class="vector">
+            <div>
+                <h2>Master</h2>
+                <img src="img/Vector2.png" alt="validé">
+            </div>
+            <h3>1ère année</h3>
+        </div>
+        <button class="button_orange">Plus d'informations >></button>
+    </div>
+</div>
+
 <?php require_once "template/footer.php"?>
