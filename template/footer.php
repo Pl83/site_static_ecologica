@@ -1,10 +1,7 @@
 <footer id="colophon" class="site-footer">
-  <style>
-
-  </style>
   <section class="FS FS1">
     <p class="FDP" >Ecologica est l’école supérieure de la transition résiliente, solidaire et désirable, à la fois lieu d’apprentissages et de participations à un changement de modèle de société.</p>
-    <div>
+    <div class="CF CF1">
       <h3>Navigation</h3>
       <ul>
         <li><a href="#">Accueil</a></li>
@@ -14,7 +11,7 @@
         <li><a href="#">Constacte</a></li>
       </ul>
     </div>
-    <div>
+    <div class="CF CF2">
       <h3>Ecologica</h3>
       <ul>
         <li><a href="#">L’école</a></li>
@@ -24,7 +21,7 @@
         <li><a href="#">Le réseaux Ecologica</a></li>
       </ul>
     </div>
-    <div>
+    <div class="CF3">
       <h3>Nous contacter</h3>
       <p>Téléphone: +33 6 17 20 44 92</p>
       <p>Email: contact@ecologica.education</p>

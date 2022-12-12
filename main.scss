@@ -25,3 +25,59 @@
     gap: 2em;
     margin-right: 63em;
   }
+
+footer{
+  background-color: #293946;
+  color: #f1f1f1;
+  .FS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3em;
+  }
+  .FS1{
+    .FDP{
+      max-width: 15em;
+      color: #f1f1f1b6;
+    }
+    .CF{
+      h3{
+        color: #f1f1f1b6;
+        padding-bottom: 0.5em;
+      }
+      ul{
+        li{
+          list-style: none;
+          padding-bottom: 0.5em;
+          a{
+            text-decoration: none;
+            color: #f1f1f1;
+          }
+        }
+      }
+    }
+    .CF3{
+      h3{
+        padding-bottom: 0.5em;
+      }
+    }
+  }
+  .FS2{
+    list-style: none;
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      gap: 3em;
+      li{
+        a{
+          ion-icon{
+            fill: #f1f1f1;
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
