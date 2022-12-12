@@ -184,13 +184,20 @@ footer {
     .CF3 {
       h3 {
         padding-bottom: 0.5em;
+        color: #f1f1f1;
+      }
+      p{
+        color: #f1f1f1;
       }
     }
   }
 
   .FS2 {
     list-style: none;
-
+    padding-bottom: 10px;
+    p{
+      color: #f1f1f1;
+    }
     ul {
       display: flex;
       flex-direction: row;
