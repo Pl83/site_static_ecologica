@@ -210,27 +210,25 @@ footer {
     list-style: none;
     padding-bottom: 10px;
     p{
-      color: #f1f1f1;
+        color: #f1f1f1;
     }
     ul {
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      gap: 3em;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 3em;
 
-      li {
+        li {
         a {
-          ion-icon {
+            ion-icon {
             fill: #f1f1f1;
             width: 30px;
             height: 30px;
-          }
+            }
         }
-      }
+        }
     }
-  }
 }
-
 
 main {
   display: flex;
@@ -369,3 +367,84 @@ main {
     }
   }
 }
+}
+
+.card_ecologica {
+    margin-top: 8em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 3em;
+    padding: 0 24em;
+    
+    .card_formations {
+        border: #314C61 solid;
+        border-radius: 10px;
+        padding: 3em 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6em;
+
+        .div-card {
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+            }
+        }
+    }
+    
+    .vector {
+        width: 80px;
+        height: 80px;
+    }
+
+    img {
+        width: 24px;
+        height: 22px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    .button_orange {
+        color: #314C61;
+        text-decoration: none;
+        background-color: #FB6A35;
+        border: #314C61 solid 2px;
+        border-radius: 6px;
+        padding: 14px 34px;
+        font-size: 20px;
+    }
+
+    .button_green {
+        color: #314C61;
+        text-decoration: none;
+        background-color: #B0DFD9;
+        border: #314C61 solid 2px;
+        border-radius: 6px;
+        padding: 14px 34px;
+        font-size: 20px;
+    }
+
+    .button_yellow {
+        color: #314C61;
+        text-decoration: none;
+        background-color: #FEDD67;
+        border: #314C61 solid 2px;
+        border-radius: 6px;
+        padding: 14px 34px;
+        font-size: 20px;
+    }
+}
+
+
