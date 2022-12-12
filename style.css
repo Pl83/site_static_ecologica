@@ -84,6 +84,7 @@
   border-radius: 4px;
   padding: 10px 15px;
   font-size: 24px;
+  margin-right: 1em;
 }
 .transition_ecole .t3 .button_ecole2 {
   text-decoration: none;
@@ -191,6 +192,7 @@ footer .FS2 ul li a ion-icon {
   text-align: center;
   gap: 3em;
   padding: 0 24em;
+  margin-bottom: 6em;
 }
 .card_ecologica .card_formations {
   border: #314C61 solid;
@@ -199,9 +201,9 @@ footer .FS2 ul li a ion-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6em;
+  gap: 8em;
 }
-.card_ecologica .card_formations .div-card div {
+.card_ecologica .card_formations .div_card .img_bachelor {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,6 +249,15 @@ footer .FS2 ul li a ion-icon {
   border-radius: 6px;
   padding: 14px 34px;
   font-size: 20px;
+}
+
+.partenaire {
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  margin-bottom: 4em;
 }
 
 /*# sourceMappingURL=style.css.map */

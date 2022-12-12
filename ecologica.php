@@ -37,7 +37,7 @@
     <div class="card_formations">
         <div class="div_card">
             <img src="img/image.png" alt="book" class="vector">
-            <div>
+            <div class="img_bachelor">
                 <h2>Bachelor</h2>
                 <img src="img/Vector2.png" alt="validé">
             </div>
@@ -48,7 +48,7 @@
     <div class="card_formations">
         <div class="div_card">
             <img src="img/Vector1.png" alt="medaille" class="vector">
-            <div>
+            <div class="img_bachelor">
                 <h2>Bachelor</h2>
                 <img src="img/Vector2.png" alt="validé">
             </div>
@@ -59,7 +59,7 @@
     <div class="card_formations">
         <div class="div_card">
             <img src="img/Vector3.png" alt="chapeau" class="vector">
-            <div>
+            <div class="img_bachelor">
                 <h2>Master</h2>
                 <img src="img/Vector2.png" alt="validé">
             </div>
@@ -67,6 +67,18 @@
         </div>
         <button class="button_orange">Plus d'informations >></button>
     </div>
+</div>
+
+<div class="partenaire">
+    <img src="img/partenaire1.png" alt="partenaire">
+    <img src="img/partenaire2.png" alt="partenaire">
+    <img src="img/partenaire3.png" alt="partenaire">
+    <img src="img/partenaire4.png" alt="partenaire">
+    <img src="img/partenaire5.png" alt="partenaire">
+    <img src="img/partenaire6.png" alt="partenaire">
+    <img src="img/partenaire7.png" alt="partenaire">
+    <img src="img/partenaire8.png" alt="partenaire">
+    <img src="img/partenaire9.png" alt="partenaire">
 </div>
 
 <?php require_once "template/footer.php"?>
