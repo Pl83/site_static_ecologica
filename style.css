@@ -131,6 +131,58 @@
   z-index: -1;
 }
 
+footer {
+  background-color: #293946;
+  color: #f1f1f1;
+}
+footer .FS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 3em;
+}
+footer .FS1 .FDP {
+  max-width: 15em;
+  color: rgba(241, 241, 241, 0.7137254902);
+}
+footer .FS1 .CF h3 {
+  color: rgba(241, 241, 241, 0.7137254902);
+  padding-bottom: 0.5em;
+}
+footer .FS1 .CF ul li {
+  list-style: none;
+  padding-bottom: 0.5em;
+}
+footer .FS1 .CF ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+footer .FS1 .CF3 h3 {
+  padding-bottom: 0.5em;
+  color: #f1f1f1;
+}
+footer .FS1 .CF3 p {
+  color: #f1f1f1;
+}
+footer .FS2 {
+  list-style: none;
+  padding-bottom: 10px;
+}
+footer .FS2 p {
+  color: #f1f1f1;
+}
+footer .FS2 ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 3em;
+}
+footer .FS2 ul li a ion-icon {
+  fill: #f1f1f1;
+  width: 30px;
+  height: 30px;
+}
+
 .card_ecologica {
   margin-top: 8em;
   display: grid;
