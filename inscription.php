@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="chien">
-      <img src="./img/image-8.png" alt="">
+      <img src="img/picto.png" alt="picto">
       <div class="miroir">
         <div class="blanc">
           <h3>Vous souhaitez mettre toutes les chances de votre côté ?</h3>
@@ -30,7 +30,9 @@
             <li>Renseignez-vous sur les spécificités d'Ecologica et faites-nous part de ce que cette école peut vous apporter</li>
           </ul>
         </div>
-        <p>Nous contacter : contact@ecologica-education.fr</p>
+        <div class="p_miroir">
+          <p>Nous contacter : contact@ecologica-education.fr</p>
+        </div>
       </div>
     </div>
   </div>
