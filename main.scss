@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .ecologica-menu {
+    background-color: #293946;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+  }
+  
+  .ecologica-menu img {
+    height: 70px;
+    width: auto;
+  }
+  
+  .ecologica-menu .menu ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 2em;
+    margin-right: 63em;
+  }
