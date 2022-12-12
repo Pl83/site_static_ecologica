@@ -1,6 +1,5 @@
 <?php require_once "template/header.php"?>
 
-
 <section class="P1">
     <h2>Bachelor Premiere Année</h2>
     <div>
@@ -57,4 +56,5 @@
     <button>Ici pour Candidater
     </button>
 </section>
+
 <?php require_once "template/footer.php"?>

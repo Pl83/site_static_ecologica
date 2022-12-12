@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #314C61;
 }
 
 .ecologica-menu {
@@ -11,19 +12,127 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 3em;
-}
-
-.ecologica-menu img {
   height: 70px;
+}
+.ecologica-menu img {
+  height: 40px;
   width: auto;
 }
-
-.ecologica-menu .menu ul {
+.ecologica-menu ul {
   display: flex;
   list-style: none;
   flex-direction: row;
   gap: 2em;
-  margin-right: 63em;
+}
+.ecologica-menu ul a {
+  color: white;
+  text-decoration: none;
+}
+.ecologica-menu .logo-menu {
+  display: flex;
+  align-items: center;
+  gap: 0 2em;
+}
+
+.candidater a {
+  color: white;
+  text-decoration: none;
+  background-color: #FB6A35;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.transition_ecole {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7em;
+  align-items: center;
+}
+
+.t1 h2 {
+  font-size: 72px;
+  font-weight: lighter;
+}
+.t1 .orange {
+  color: #FB6A35;
+  font-weight: bolder;
+}
+
+.t2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+.t2 h3 {
+  font-size: 26px;
+}
+.t2 div {
+  background-color: #FB6A35;
+  border: #FB6A35 solid;
+  border-radius: 100%;
+  height: 13px;
+  width: 13px;
+}
+
+.t3 {
+  margin-top: 3em;
+}
+.t3 .button_ecole1 {
+  color: white;
+  text-decoration: none;
+  background-color: #FB6A35;
+  border: #FB6A35 solid 1px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 24px;
+}
+.t3 .button_ecole2 {
+  text-decoration: none;
+  border: #FB6A35 solid 1px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  color: #FB6A35;
+  background-color: white;
+  font-size: 24px;
+}
+
+.transition_picture {
+  position: relative;
+}
+.transition_picture button {
+  color: white;
+  text-decoration: none;
+  background-color: #FB6A35;
+  border: #FB6A35 solid 1px;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 90px;
+  left: -80px;
+}
+.transition_picture .img_background {
+  background-color: white;
+}
+.transition_picture .webinaire {
+  border: #314C61 solid 1px;
+  font-size: 20px;
+  background-color: white;
+  padding: 15px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+.transition_picture .background_absolute {
+  background-color: #D4EDEA;
+  height: 309px;
+  width: 280px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: -1;
 }
 
 footer {
@@ -70,4 +179,3 @@ footer .FS2 ul li a ion-icon {
   height: 30px;
 }
 
-/*# sourceMappingURL=style.css.map */

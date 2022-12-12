@@ -13,11 +13,14 @@
 <div class="ecologica-menu">
     <div class="logo-menu">
         <img src="../img/logo.png" alt="logo">
-        <a href="index.php">Accueil</a>
-        <a href="admissions_formations.php">Admissions & formations</a>
-        <a href="ecologica.php">Ecologica</a>
-        <a href="partenaires.php">Partenaires</a>
-        <a href="contact.php">Contact</a>
+
+        <ul>
+            <a href="index.php">Accueil</a>
+            <a href="admissions_formations.php">Admissions & formations</a>
+            <a href="ecologica.php">Ecologica</a>
+            <a href="partenaires.php">Partenaires</a>
+            <a href="contact.php">Contact</a>
+        </ul>
     </div>
     <div class="candidater">
         <a href="">Candidatez</a>
