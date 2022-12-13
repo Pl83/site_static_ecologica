@@ -145,6 +145,7 @@
       position: absolute;
       top: -50px;
       left: -50px;
+      border-radius: var(--br);
     }
 
     .background_absolute {
@@ -603,15 +604,21 @@ main {
     }
 }
 
+.scroll {
+  overflow-x: hidden;
+}
+
 .slider {
   border-top: black solid 1px;
   border-bottom: black solid 1px;
   display: flex;
   justify-content: space-between;
-	height: 233px;
+	height: 15vh;
 	width: 9000px;
+  overflow-x: hidden;
+
   img {
-    padding: 25px;
+    padding: 3vh;
   }
 }
 

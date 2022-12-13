@@ -132,6 +132,7 @@
   position: absolute;
   top: -50px;
   left: -50px;
+  border-radius: var(--br);
 }
 .transition_ecole .transition_picture .background_absolute {
   background-color: #D4EDEA;
@@ -501,16 +502,21 @@ footer .bottom .cards .card:nth-child(3) button {
   justify-content: space-between;
 }
 
+.scroll {
+  overflow-x: hidden;
+}
+
 .slider {
   border-top: black solid 1px;
   border-bottom: black solid 1px;
   display: flex;
   justify-content: space-between;
-  height: 233px;
+  height: 15vh;
   width: 9000px;
+  overflow-x: hidden;
 }
 .slider img {
-  padding: 25px;
+  padding: 3vh;
 }
 
 /*keyframe animations*/
