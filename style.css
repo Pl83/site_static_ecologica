@@ -942,5 +942,53 @@ hr {
   border-radius: var(--br);
   font-size: 16px;
 }
+.form .candidature {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 55vh;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.form .candidature form {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: space-between;
+}
+.form .candidature form div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.form .candidature form div label {
+  font-size: 16px;
+  font-weight: 300;
+  width: 25vh;
+}
+.form .candidature form div input {
+  border: #A4A4A4 1px solid;
+  border-radius: var(--br);
+  padding: 0.5em 1em;
+  width: 25vh;
+}
+.form .candidature form div input:focus {
+  outline: none;
+}
+.form .candidature button {
+  background-color: var(--orange);
+  width: 30%;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: var(--br);
+  color: white;
+}
+.form .candidature .active {
+  background-color: white;
+  border: 1px solid var(--bleu);
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */

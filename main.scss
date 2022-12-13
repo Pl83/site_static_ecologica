@@ -1098,8 +1098,65 @@ hr {
         color: white;
         border: none;
         border-radius: var(--br);
-        font-size: 16px;
+        font-size: 16px
+        ;
       }
+    }
+  }
+
+  .candidature {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 55vh;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      height: 45vh;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+        label {
+          font-size: 16px;
+          font-weight: 300;
+          width: 25vh;
+        }
+
+        input {
+          border: #A4A4A4 1px solid;
+          border-radius: var(--br);
+          padding: 0.5em 1em;
+          width: 25vh;
+        }
+
+        input:focus {
+          outline:none;
+        }
+      }
+    }
+
+    button {
+      background-color: var(--orange);
+      width: 30%;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: var(--br);
+      color: white;
+    }
+
+    .active {
+      background-color: white;
+      border: 1px solid var(--bleu);
+      color: white;
     }
   }
 }
