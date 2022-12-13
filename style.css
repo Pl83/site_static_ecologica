@@ -4,8 +4,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-<<<<<<< HEAD
-=======
   font-family: "Raleway", sans-serif;
   font-family: "Ubuntu", sans-serif;
   color: var(--font);
@@ -17,7 +15,6 @@
   --orange: #FB6A35 ;
   --jaune: #FEDD67 ;
   --br: 4px;
->>>>>>> c8364a83a4c4351b7601120aa15db108c0e20e30
 }
 
 .ecologica-menu {
@@ -146,177 +143,61 @@
   z-index: -1;
 }
 
-body main {
-  width: 100%;
+.formations {
   display: flex;
   flex-direction: column;
 }
-body main .formations {
+.formations .fond {
+  background-color: #B0DFD9;
+  opacity: 50%;
+  width: 110%;
+  height: 50vh;
+  position: absolute;
+  transform: rotate(-5deg);
+  left: -5%;
+}
+.formations section {
+  display: flex;
+  flex-direction: row;
   width: 90%;
   margin: auto;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.formations section .left {
+  width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 20vh;
-  padding-top: 15vh;
-  padding-bottom: 23vh;
+  border: 1px solid red;
+  height: 100%;
+  justify-content: space-around;
 }
-body main section {
-  height: 50vh;
+.formations section .left h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--orange);
 }
-body main .P1 {
-  z-index: 3;
-}
-body main .P1 .fondS {
-  background-color: rgba(165, 203, 198, 0.3);
-  position: absolute;
-  width: 100%;
-  height: inherit;
-  scale: 1.3;
-  rotate: -3deg;
-  z-index: -1;
-}
-body main .P1 h2 {
-  color: #FB6A35;
-}
-body main .P1 div {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin: auto;
-}
-body main .P1 div .GT {
-  display: flex;
-  flex-direction: column;
-}
-body main .P1 div .GT p {
-  color: black;
+.formations section .left .txt {
+  color: var(--font);
   font-size: 20px;
-  padding-bottom: 50px;
 }
-body main .P1 div .GT button {
-  width: 15%;
+.formations section .left .txt .button {
+  color: var(--font);
+  background-color: var(--bleu);
+  border-radius: var(--br);
   border: none;
-  background-color: #B0DFD9;
-  color: #314C61;
 }
-body main .P1 div .GI img {
-  width: 40vh;
-  height: 40vh;
-  margin-left: 40%;
-  z-index: 5;
-}
-body main .P1 div .GI .ICC {
-  width: 45vh;
-  height: 25vh;
-  position: absolute;
-  z-index: 2;
-  background-color: rgba(176, 223, 217, 0.55);
-  right: 15vh;
-  bottom: 20vh;
-}
-body main .P1 button {
-  border-radius: 4%;
-  height: 3vh;
-  width: 15vh;
-}
-body main .P2 {
-  z-index: 3;
-}
-body main .P2 h2 {
-  color: #FB6A35;
-}
-body main .P2 div {
-  display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
-  margin: auto;
-}
-body main .P2 div .GT {
+.formations section .right {
+  width: 45%;
   display: flex;
   flex-direction: column;
+  border: 1px solid red;
 }
-body main .P2 div .GT p {
-  color: black;
-  font-size: 20px;
-  padding-bottom: 50px;
-}
-body main .P2 div .GT button {
-  width: 15%;
-  border: none;
-  background-color: #B0DFD9;
-  color: #314C61;
-}
-body main .P2 div .GI img {
-  width: 40vh;
-  height: 40vh;
-  margin-right: 40%;
-}
-body main .P2 div .GI .ICC {
-  width: 45vh;
-  height: 25vh;
-  z-index: 2;
-  background-color: rgba(254, 221, 103, 0.5);
-  right: 15vh;
-  bottom: 20vh;
-}
-body main .P2 button {
-  border-radius: 4%;
-  height: 3vh;
-  width: 15vh;
-}
-body main .P3 {
-  z-index: 3;
-}
-body main .P3 .fondS {
-  background-color: rgba(165, 203, 198, 0.3);
-  position: absolute;
-  width: 100%;
-  height: inherit;
-  scale: 1.3;
-  rotate: -3deg;
-  z-index: -1;
-}
-body main .P3 h2 {
-  color: #FB6A35;
-}
-body main .P3 div {
+.formations section .right img {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin: auto;
-}
-body main .P3 div .GT {
-  display: flex;
-  flex-direction: column;
-}
-body main .P3 div .GT p {
-  color: black;
-  font-size: 20px;
-  padding-bottom: 50px;
-}
-body main .P3 div .GT button {
-  width: 15%;
-  border: none;
-  background-color: #B0DFD9;
-  color: #314C61;
-}
-body main .P3 div .GI img {
-  width: 40vh;
-  height: 40vh;
-  margin-left: 40%;
-}
-body main .P3 div .GI .ICC {
-  width: 45vh;
-  height: 25vh;
-  z-index: 2;
-  background-color: rgba(176, 223, 217, 0.55);
-  right: 30vh;
-  bottom: 25vh;
-}
-body main .P3 button {
-  border-radius: 4%;
-  height: 3vh;
-  width: 15vh;
+  position: relative;
+  margin: 0;
 }
 
 footer {
@@ -559,7 +440,6 @@ footer .bottom .cards .card:nth-child(3) button {
   display: flex;
   justify-content: space-around;
   padding: 1em;
-  margin-bottom: 4em;
 }
 
 main {
