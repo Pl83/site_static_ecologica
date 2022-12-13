@@ -8,6 +8,7 @@
   font-family: 'Raleway', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   color: var(--font);
+  overflow-x: hidden;
 }
 
 
@@ -608,10 +609,10 @@ main {
   border-bottom: black solid 1px;
   display: flex;
   justify-content: space-between;
-	height: 233px;
+	height: 15vh;
 	width: 9000px;
   img {
-    padding: 25px;
+    padding: 3vh;
   }
 }
 
