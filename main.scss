@@ -305,213 +305,110 @@
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #293946;
-  color: #f1f1f1;
+  padding: 10vh 0;
 
-  .FS {
+  .content {
+    width: 90%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 3em;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
   }
 
-  .FS1 {
-    .FDP {
-      max-width: 15em;
-      color: #f1f1f1b6;
+  section:nth-child(1){
+    width: 85%;
+    margin: 0;
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+
+    p {
+      color: white;
+    }
+    h4 {
+      font-family: 'Ubuntu', sans-serif;
+      color: white;
+      font-weight: 300;
+      width: 24%;
+      font-size: 16px;
+      line-height: 25px;
     }
 
-    .CF {
+    div {
+      display: flex;
+      flex-direction: column;
+      // width: 20%;
+      height: 20vh;
+      justify-content: space-between;
+
       h3 {
-        color: #f1f1f1b6;
-        padding-bottom: 0.5em;
+        color: white;
+        opacity: 50%;
       }
 
       ul {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        justify-content: space-between;
+
         li {
           list-style: none;
-          padding-bottom: 0.5em;
 
           a {
             text-decoration: none;
-            color: #f1f1f1;
+            color: white;
+            font-weight: 300;
           }
         }
+
+        p {
+          color: white;
+          margin-bottom: 10px;
+        }
       }
     }
 
-    .CF3 {
-      h3 {
-        padding-bottom: 0.5em;
-        color: #f1f1f1;
-      }
-      p{
-        color: #f1f1f1;
+    div:nth-child(4){
+
+      ul {
+        justify-content: start;
       }
     }
   }
 
-  .FS2 {
-    list-style: none;
-    padding-bottom: 10px;
-    p{
-        color: #f1f1f1;
-    }
+  section:nth-child(2){
+
     ul {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        gap: 3em;
-
-        li {
-        a {
-            ion-icon {
-            fill: #f1f1f1;
-            width: 30px;
-            height: 30px;
-            }
-        }
-        }
-    }
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 90vh;
-  position: relative;
-  overflow: hidden;
-
-  img {
-    position: absolute;
-    z-index: -1;
-  }
-
-  img:nth-child(1) {
-    bottom: 35vh;
-    right: -7vh;
-    width: 40vh;
-    transform: scaleX(-1);
-  }
-
-  img:nth-child(2) {
-    bottom: 20vh;
-    left: -7vh;
-    width: 35vh;
-  }
-
-  img:nth-child(3) {
-    bottom: -2vh;
-    left: 3vh;
-    width: 30vh;
-  }
-
-  img:nth-child(4) {
-    bottom: -2vh;
-    right: 0vh;
-    width: 20vh;
-  }
-
-  img:nth-child(5) {
-    bottom: -9vh;
-    left: 20vh;
-    width: 20vh;
-  }
-}
-
-.bottom {
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 80vh;
-  justify-content: space-around;
-  margin: auto;
-  align-items: center;
-
-  .titre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    height: 22%;
-
-    button {
-      background-color: #D4EDEA;
-      border:  none;
-      padding: 1em 1.5em;
-      border-radius: var(--br);
-    }
-
-    h2 {
-      font-size: 30px;
-      width: 70%;
-    }
-  }
-
-  .cards {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: space-between;
-
-    .card {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      width: 20%;
       justify-content: space-between;
-      align-items: center;
-      border: solid 2px var(--font);
-      width: 30%;
-      height: 25vh;
-      border-radius: var(--br);
-      padding: 20px 0 ;
-      background-color: white;
+      margin-left: -32vh;
 
-      .titre {
-        position: relative;
-        width: 100%;
-        font-family: 'Raleway', sans-serif;
+      li {
+        list-style: none;
 
-        h3 {
-          font-size: 32px;
-          font-weight: 300;
-        }
-
-        svg {
-          position: absolute;
-          right: 25px;
-          top: 15px;
+        ion-icon {
+          fill: white;
+          width: 30px;
+          height: 30px;
         }
       }
-
-      button {
-        border-radius: var(--br);
-        width: 60%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0.25em 1em;
-        border: none;
-        background-color: var(--bleu);
-      }
     }
 
-    .card:nth-child(2) {
-      button {
-        background-color: var(--jaune);
-      }
-    }
-
-    .card:nth-child(3) {
-      button {
-        background-color: var(--orange);
-      }
-    }
   }
-}
 }
 
 .card_ecologica {

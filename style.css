@@ -258,170 +258,88 @@
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #293946;
-  color: #f1f1f1;
+  padding: 10vh 0;
 }
-footer .FS {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 3em;
-}
-footer .FS1 .FDP {
-  max-width: 15em;
-  color: rgba(241, 241, 241, 0.7137254902);
-}
-footer .FS1 .CF h3 {
-  color: rgba(241, 241, 241, 0.7137254902);
-  padding-bottom: 0.5em;
-}
-footer .FS1 .CF ul li {
-  list-style: none;
-  padding-bottom: 0.5em;
-}
-footer .FS1 .CF ul li a {
-  text-decoration: none;
-  color: #f1f1f1;
-}
-footer .FS1 .CF3 h3 {
-  padding-bottom: 0.5em;
-  color: #f1f1f1;
-}
-footer .FS1 .CF3 p {
-  color: #f1f1f1;
-}
-footer .FS2 {
-  list-style: none;
-  padding-bottom: 10px;
-}
-footer .FS2 p {
-  color: #f1f1f1;
-}
-footer .FS2 ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 3em;
-}
-footer .FS2 ul li a ion-icon {
-  fill: #f1f1f1;
-  width: 30px;
-  height: 30px;
-}
-footer main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 90vh;
-  position: relative;
-  overflow: hidden;
-}
-footer main img {
-  position: absolute;
-  z-index: -1;
-}
-footer main img:nth-child(1) {
-  bottom: 35vh;
-  right: -7vh;
-  width: 40vh;
-  transform: scaleX(-1);
-}
-footer main img:nth-child(2) {
-  bottom: 20vh;
-  left: -7vh;
-  width: 35vh;
-}
-footer main img:nth-child(3) {
-  bottom: -2vh;
-  left: 3vh;
-  width: 30vh;
-}
-footer main img:nth-child(4) {
-  bottom: -2vh;
-  right: 0vh;
-  width: 20vh;
-}
-footer main img:nth-child(5) {
-  bottom: -9vh;
-  left: 20vh;
-  width: 20vh;
-}
-footer .bottom {
-  font-family: "Raleway", sans-serif;
-  display: flex;
-  flex-direction: column;
+footer .content {
   width: 90%;
-  height: 80vh;
-  justify-content: space-around;
   margin: auto;
-  align-items: center;
-}
-footer .bottom .titre {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   justify-content: space-between;
-  height: 22%;
+  height: 30vh;
 }
-footer .bottom .titre button {
-  background-color: #D4EDEA;
-  border: none;
-  padding: 1em 1.5em;
-  border-radius: var(--br);
+footer section:nth-child(1) {
+  width: 85%;
+  margin: 0;
 }
-footer .bottom .titre h2 {
-  font-size: 30px;
-  width: 70%;
-}
-footer .bottom .cards {
+footer section {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  width: 80%;
+  color: white;
   justify-content: space-between;
 }
-footer .bottom .cards .card {
+footer section p {
+  color: white;
+}
+footer section h4 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: 300;
+  width: 24%;
+  font-size: 16px;
+  line-height: 25px;
+}
+footer section div {
   display: flex;
   flex-direction: column;
+  height: 20vh;
   justify-content: space-between;
-  align-items: center;
-  border: solid 2px var(--font);
-  width: 30%;
-  height: 25vh;
-  border-radius: var(--br);
-  padding: 20px 0;
-  background-color: white;
 }
-footer .bottom .cards .card .titre {
-  position: relative;
-  width: 100%;
-  font-family: "Raleway", sans-serif;
+footer section div h3 {
+  color: white;
+  opacity: 50%;
 }
-footer .bottom .cards .card .titre h3 {
-  font-size: 32px;
+footer section div ul {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+}
+footer section div ul li {
+  list-style: none;
+}
+footer section div ul li a {
+  text-decoration: none;
+  color: white;
   font-weight: 300;
 }
-footer .bottom .cards .card .titre svg {
-  position: absolute;
-  right: 25px;
-  top: 15px;
+footer section div ul p {
+  color: white;
+  margin-bottom: 10px;
 }
-footer .bottom .cards .card button {
-  border-radius: var(--br);
-  width: 60%;
+footer section div:nth-child(4) ul {
+  justify-content: start;
+}
+footer section:nth-child(2) ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  width: 20%;
   justify-content: space-between;
-  padding: 0.25em 1em;
-  border: none;
-  background-color: var(--bleu);
+  margin-left: -32vh;
 }
-footer .bottom .cards .card:nth-child(2) button {
-  background-color: var(--jaune);
+footer section:nth-child(2) ul li {
+  list-style: none;
 }
-footer .bottom .cards .card:nth-child(3) button {
-  background-color: var(--orange);
+footer section:nth-child(2) ul li ion-icon {
+  fill: white;
+  width: 30px;
+  height: 30px;
 }
 
 .card_ecologica {
