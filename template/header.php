@@ -12,7 +12,7 @@
 <header>
 <div class="ecologica-menu">
     <div class="logo-menu">
-        <img src="../img/logo.png" alt="logo">
+        <img src="../img/logo_blanc.svg" alt="logo">
 
         <ul>
             <a href="index.php">Accueil</a>
