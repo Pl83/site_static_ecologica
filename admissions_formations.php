@@ -87,6 +87,8 @@
     </div>
 </div>
 
+<div class="scroll">
+
 <section class="first slider">
   <img src="img/slider/DABBA.png" alt="">
   <img src="img/slider/generation-lumiere.jpeg" alt="">
@@ -129,6 +131,7 @@
   <img src="img/slider/terre-et-humanisme.png" alt="">
   <img src="img/slider/Tous-Elus.png" alt="">
 </section>
+</div>
 
 <main class="formations">
 
