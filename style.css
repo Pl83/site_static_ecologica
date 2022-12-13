@@ -91,7 +91,6 @@
   color: white;
   text-decoration: none;
   background-color: #FB6A35;
-  border: #FB6A35 solid 1px;
   border-radius: 4px;
   padding: 10px 15px;
   font-size: 24px;
@@ -99,7 +98,7 @@
 }
 .transition_ecole .t3 .button_ecole2 {
   text-decoration: none;
-  border: #FB6A35 solid 1px;
+  border: #FB6A35 solid 2px;
   border-radius: 4px;
   padding: 10px 15px;
   color: #FB6A35;
@@ -125,7 +124,7 @@
   background-color: white;
 }
 .transition_ecole .transition_picture .webinaire {
-  border: #314C61 solid 1px;
+  border: #314C61 solid 2px;
   font-size: 20px;
   background-color: white;
   padding: 15px;
@@ -439,7 +438,7 @@ footer section:nth-child(2) ul li ion-icon {
 
 /*keyframe animations*/
 .first {
-  animation: bannermove 25s linear infinite;
+  animation: bannermove 55s linear infinite;
 }
 
 @keyframes bannermove {
