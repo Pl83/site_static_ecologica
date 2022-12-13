@@ -4,8 +4,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-<<<<<<< HEAD
-=======
   font-family: "Raleway", sans-serif;
   font-family: "Ubuntu", sans-serif;
   color: var(--font);
@@ -17,7 +15,6 @@
   --orange: #FB6A35 ;
   --jaune: #FEDD67 ;
   --br: 4px;
->>>>>>> c8364a83a4c4351b7601120aa15db108c0e20e30
 }
 
 .ecologica-menu {
@@ -164,6 +161,8 @@ body main section {
   height: 50vh;
 }
 body main .P1 {
+  display: flex;
+  flex-direction: row;
   z-index: 3;
 }
 body main .P1 .fondS {
@@ -224,6 +223,8 @@ body main .P2 {
 }
 body main .P2 h2 {
   color: #FB6A35;
+  display: flex;
+  justify-content: right;
 }
 body main .P2 div {
   display: flex;

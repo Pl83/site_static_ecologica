@@ -88,16 +88,15 @@
                 <div class="fondS">
 
                 </div>
-                <h2>Bachelor Premiere Année</h2>
                 <div>
+                    
+                    <h2>Bachelor Premiere Année</h2>
 
                     <div class="GT">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
-                        <button>Ici pour Candidater
-                        </button>
-                    </div>
+                        <button>Ici pour Candidater</button>z
 
                     <div class="GI">
                         <img src="img/handpc.png" />
@@ -109,7 +108,7 @@
                 </div>
 
             </section>
-
+<!-- 
             <section class="P2">
                 <h2>Bachelor Troisième Année</h2>
                 <div>
@@ -157,7 +156,7 @@
 
                 </div>
 
-            </section>
+            </section> -->
         </div>
     </main>
 

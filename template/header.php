@@ -23,7 +23,7 @@
         </ul>
     </div>
     <div class="candidater">
-        <a href="">Candidatez</a>
+        <a href="inscription.php">Candidatez</a>
     </div>
 </div>
 </header>
