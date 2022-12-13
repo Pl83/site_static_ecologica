@@ -43,7 +43,7 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_green">Plus d'informations >></button>
+        <button class="button_green" id="A1">Plus d'informations >></button>
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -54,7 +54,7 @@
             </div>
             <h3>3e année</h3>
         </div>
-        <button class="button_yellow">Plus d'informations >></button>
+        <button class="button_yellow" id="A3">Plus d'informations >></button>
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -65,27 +65,58 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_orange">Plus d'informations >></button>
+        <button class="button_orange" id="M1">Plus d'informations >></button>
     </div>
 </div>
 
-<div class="partenaire">
-    <img src="img/partenaire1.png" alt="partenaire">
-    <img src="img/partenaire2.png" alt="partenaire">
-    <img src="img/partenaire3.png" alt="partenaire">
-    <img src="img/partenaire4.png" alt="partenaire">
-    <img src="img/partenaire5.png" alt="partenaire">
-    <img src="img/partenaire6.png" alt="partenaire">
-    <img src="img/partenaire7.png" alt="partenaire">
-    <img src="img/partenaire8.png" alt="partenaire">
-    <img src="img/partenaire9.png" alt="partenaire">
-</div>
+<section class="first slider">
+  <img src="img/slider/DABBA.png" alt="">
+  <img src="img/slider/generation-lumiere.jpeg" alt="">
+  <img src="img/slider/graines-electroniques.png" alt="">
+  <img src="img/slider/Horizon-dailes.png" alt="">
+  <img src="img/slider/institut-de-tramayes.png" alt="">
+  <img src="img/slider/Les-Alchimistes.jpeg" alt="">
+  <img src="img/slider/LOGO-Institut-transitions.png" alt="">
+  <img src="img/slider/mouvement-de-palier.png" alt="">
+  <img src="img/slider/Notre-affaire-a-tous.png" alt="">
+  <img src="img/slider/partenaire1.png" alt="">
+  <img src="img/slider/partenaire2.png" alt="">
+  <img src="img/slider/partenaire3.png" alt="">
+  <img src="img/slider/partenaire4.png" alt="">
+  <img src="img/slider/partenaire5.png" alt="">
+  <img src="img/slider/partenaire6.png" alt="">
+  <img src="img/slider/partenaire7.png" alt="">
+  <img src="img/slider/partenaire8.png" alt="">
+  <img src="img/slider/partenaire9.png" alt="">
+  <img src="img/slider/terre-et-humanisme.png" alt="">
+  <img src="img/slider/Tous-Elus.png" alt="">
+  <img src="img/slider/DABBA.png" alt="">
+  <img src="img/slider/generation-lumiere.jpeg" alt="">
+  <img src="img/slider/graines-electroniques.png" alt="">
+  <img src="img/slider/Horizon-dailes.png" alt="">
+  <img src="img/slider/institut-de-tramayes.png" alt="">
+  <img src="img/slider/Les-Alchimistes.jpeg" alt="">
+  <img src="img/slider/LOGO-Institut-transitions.png" alt="">
+  <img src="img/slider/mouvement-de-palier.png" alt="">
+  <img src="img/slider/Notre-affaire-a-tous.png" alt="">
+  <img src="img/slider/partenaire1.png" alt="">
+  <img src="img/slider/partenaire2.png" alt="">
+  <img src="img/slider/partenaire3.png" alt="">
+  <img src="img/slider/partenaire4.png" alt="">
+  <img src="img/slider/partenaire5.png" alt="">
+  <img src="img/slider/partenaire6.png" alt="">
+  <img src="img/slider/partenaire7.png" alt="">
+  <img src="img/slider/partenaire8.png" alt="">
+  <img src="img/slider/partenaire9.png" alt="">
+  <img src="img/slider/terre-et-humanisme.png" alt="">
+  <img src="img/slider/Tous-Elus.png" alt="">
+</section>
 
 <main class="formations">
 
       <div class="fond"></div>
 
-    <section>
+    <section id="A1B">
       
       <div class="left">
         <h2>Bachelor Premiere Année</h2>
@@ -107,7 +138,7 @@
 
     </section>
 
-    <section>
+    <section id="A3B">
       <div class="illus">
         <img src="img/illu_2.png" alt="illu">
         <div class="bg"></div>
@@ -127,7 +158,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="M1B">
       
       <div class="left">
         <h2>Bachelor Premiere Année</h2>
@@ -152,3 +183,4 @@
       <div class="fond2"></div>
 </main>
 
+<?php require_once "template/footer.php"?>

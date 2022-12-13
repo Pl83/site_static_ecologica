@@ -149,7 +149,6 @@
   height: 290vh;
   justify-content: space-between;
   position: relative;
-  border: solid 1px rebeccapurple;
   padding-top: 15vh;
 }
 .formations .fond {
@@ -491,14 +490,31 @@ footer .bottom .cards .card:nth-child(3) button {
   font-size: 20px;
 }
 
-.partenaire {
+.slider {
   border-top: black solid 1px;
   border-bottom: black solid 1px;
   display: flex;
-  justify-content: space-around;
-  padding: 1em;
+  justify-content: space-between;
+  height: 233px;
+  width: 9000px;
+}
+.slider img {
+  padding: 25px;
 }
 
+/*keyframe animations*/
+.first {
+  animation: bannermove 25s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -7000px;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
