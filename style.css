@@ -573,7 +573,7 @@ main img:nth-child(5) {
   justify-content: space-around;
   position: relative;
   margin-top: 6em;
-  margin-bottom: 8em;
+  margin-bottom: 18em;
 }
 .centipede .chat {
   margin-top: 10vh;
@@ -586,6 +586,11 @@ main img:nth-child(5) {
 }
 .centipede .chat h1 {
   font-size: 50px;
+}
+.centipede .chat p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 80%;
 }
 .centipede .chat .button {
   align-self: left;

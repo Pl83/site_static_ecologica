@@ -677,7 +677,7 @@ main {
   justify-content: space-around;
   position: relative;
   margin-top: 6em;
-  margin-bottom: 8em;
+  margin-bottom: 18em;
 
   .chat{
     margin-top: 10vh;
@@ -687,9 +687,17 @@ main {
     width: 600px;
     justify-content: space-between;
     gap: 3em;
+
     h1{
       font-size: 50px;
     }
+
+    p {
+      font-size: 20px;
+      font-weight: 300;
+      width: 80%;
+    }
+
     .button{
       align-self: left;
       display: flex;
