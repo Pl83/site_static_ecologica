@@ -1,6 +1,5 @@
 <?php require_once "template/header.php"?>
 
-<<<<<<< HEAD
 <div class="presentation_ecologica">
     <div>
         <h2>ECOLOGICA</h2>
