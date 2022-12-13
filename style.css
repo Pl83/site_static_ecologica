@@ -424,14 +424,15 @@ footer .bottom .cards .card:nth-child(3) button {
 }
 
 .card_ecologica {
-  margin-top: 8em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row;
   align-items: center;
   text-align: center;
-  gap: 3em;
-  padding: 0 24em;
-  margin-bottom: 6em;
+  width: 70%;
+  margin: auto;
+  margin-top: 8em;
+  margin-bottom: 8em;
+  justify-content: space-between;
 }
 .card_ecologica .card_formations {
   border: #314C61 solid;
@@ -440,7 +441,8 @@ footer .bottom .cards .card:nth-child(3) button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8em;
+  justify-content: space-between;
+  height: 50vh;
 }
 .card_ecologica .card_formations .div_card .img_bachelor {
   display: flex;
@@ -467,27 +469,36 @@ footer .bottom .cards .card:nth-child(3) button {
   text-decoration: none;
   background-color: #FB6A35;
   border: #314C61 solid 2px;
-  border-radius: 6px;
-  padding: 14px 34px;
+  border-radius: var(--br);
+  padding: 0.5em 1em;
   font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 .card_ecologica .button_green {
   color: #314C61;
   text-decoration: none;
   background-color: #B0DFD9;
   border: #314C61 solid 2px;
-  border-radius: 6px;
-  padding: 14px 34px;
+  border-radius: var(--br);
+  padding: 0.5em 1em;
   font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 .card_ecologica .button_yellow {
   color: #314C61;
   text-decoration: none;
   background-color: #FEDD67;
   border: #314C61 solid 2px;
-  border-radius: 6px;
-  padding: 14px 34px;
+  border-radius: var(--br);
+  padding: 0.5em 1em;
   font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .partenaire {

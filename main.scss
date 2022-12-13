@@ -192,7 +192,6 @@
     bottom: 0;
   }
 
-
   section {
     display: flex;
     flex-direction: row;
@@ -515,14 +514,15 @@ main {
 }
 
 .card_ecologica {
-    margin-top: 8em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    gap: 3em;
-    padding: 0 24em;
-    margin-bottom: 6em;
+    width: 70%;
+    margin: auto;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    justify-content: space-between;
     
     .card_formations {
         border: #314C61 solid;
@@ -531,7 +531,8 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 8em;
+        justify-content: space-between;
+        height: 50vh;
 
         .div_card {
 
@@ -567,9 +568,12 @@ main {
         text-decoration: none;
         background-color: #FB6A35;
         border: #314C61 solid 2px;
-        border-radius: 6px;
-        padding: 14px 34px;
+        border-radius: var(--br);
+        padding: 0.5em 1em;
         font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 
     .button_green {
@@ -577,9 +581,12 @@ main {
         text-decoration: none;
         background-color: #B0DFD9;
         border: #314C61 solid 2px;
-        border-radius: 6px;
-        padding: 14px 34px;
+        border-radius: var(--br);
+        padding: 0.5em 1em;
         font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 
     .button_yellow {
@@ -587,9 +594,12 @@ main {
         text-decoration: none;
         background-color: #FEDD67;
         border: #314C61 solid 2px;
-        border-radius: 6px;
-        padding: 14px 34px;
+        border-radius: var(--br);
+        padding: 0.5em 1em;
         font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 }
 

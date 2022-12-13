@@ -43,7 +43,11 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_green">Plus d'informations >></button>
+        <button class="button_green">Plus d'informations 
+          <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
+          </svg>
+        </button>
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -54,7 +58,11 @@
             </div>
             <h3>3e année</h3>
         </div>
-        <button class="button_yellow">Plus d'informations >></button>
+        <button class="button_yellow">Plus d'informations 
+          <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
+          </svg>
+        </button>
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -65,7 +73,11 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_orange">Plus d'informations >></button>
+        <button class="button_orange">Plus d'informations 
+          <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
+          </svg>
+        </button>
     </div>
 </div>
 
