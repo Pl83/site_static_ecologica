@@ -151,3 +151,5 @@
 
       <div class="fond2"></div>
 </main>
+
+<?php require_once "template/footer.php"?>
