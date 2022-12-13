@@ -132,6 +132,7 @@
   position: absolute;
   top: -50px;
   left: -50px;
+  border-radius: var(--br);
 }
 .transition_ecole .transition_picture .background_absolute {
   background-color: #D4EDEA;
