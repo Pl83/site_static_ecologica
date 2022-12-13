@@ -43,7 +43,11 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_green">Plus d'informations >></button>
+        <button class="button_green">Plus d'informations 
+          <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
+          </svg>
+        </button>
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -54,7 +58,11 @@
             </div>
             <h3>3e année</h3>
         </div>
-        <button class="button_yellow">Plus d'informations >></button>
+        <button class="button_yellow">Plus d'informations 
+          <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
+          </svg>
+        </button>
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -65,7 +73,11 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_orange">Plus d'informations >></button>
+        <button class="button_orange">Plus d'informations 
+          <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
+          </svg>
+        </button>
     </div>
 </div>
 
@@ -81,76 +93,75 @@
     <img src="img/partenaire9.png" alt="partenaire">
 </div>
 
+<main class="formations">
 
-    <main class="formations">
-          <div class="fond"></div>
-        <section>
-          
-          <div class="left">
-            <h2>Bachelor Premiere Année</h2>
+      <div class="fond"></div>
 
-            <div class="txt">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
-              <button>Ici pour Candidater</button>
-            </div>
-          </div>
+    <section>
+      
+      <div class="left">
+        <h2>Bachelor Premiere Année</h2>
 
-          <div class="right">
-            <img src="img/handpc.png"/>
-            <div class="bg"></div>
-          </div>
+        <div class="txt">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
+        </div>
 
-        </section>
+        <button>Ici pour Candidater</button>
 
-        <section>
-            <h2>Bachelor Troisième Année</h2>
-            <div>
+      </div>
 
-                <div class="GT">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
-                    <button>Ici pour Candidater
-                    </button>
-                </div>
+      <div class="illus">
+        <img src="img/illu_1.png" alt="illu">
+        <div class="bg"></div>
+      </div>
 
-                <div class="GI">
-                    <img src="img/solopc.png" />
-                    <div class="ICC">
+    </section>
 
-                    </div>
-                </div>
+    <section>
+      <div class="illus">
+        <img src="img/illu_2.png" alt="illu">
+        <div class="bg"></div>
+      </div>
+      
+      <div class="left">
+        <h2>Bachelor Troisième Année</h2>
 
-            </div>
+        <div class="txt">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
+        </div>
 
-        </section>
+        <button>Ici pour Candidater</button>
 
-        <section>
+      </div>
+    </section>
 
-            </div>
-            <h2>Master Premiere Année</h2>
-            <div>
+    <section>
+      
+      <div class="left">
+        <h2>Bachelor Premiere Année</h2>
 
-                <div class="GT">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
-                    <button>Ici pour Candidater
-                    </button>
-                </div>
+        <div class="txt">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
+        </div>
 
-                <div class="GI">
-                    <img src="img/gpc.png" />
-                    <div class="ICC">
+        <button>Ici pour Candidater</button>
 
-                    </div>
-                </div>
+      </div>
 
-            </div>
+      <div class="illus">
+        <img src="img/illu_3.png" alt="illu">
+        <div class="bg"></div>
+      </div>
+      
+    </section>
 
-        </section>
-    </main>
+      <div class="fond2"></div>
+</main>
 
 <?php require_once "template/footer.php"?>
