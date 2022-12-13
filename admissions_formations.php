@@ -43,11 +43,13 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_green">Plus d'informations 
+
+        <button class="button_green" id="A1">Plus d'informations 
           <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
           </svg>
         </button>
+
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -58,11 +60,13 @@
             </div>
             <h3>3e année</h3>
         </div>
-        <button class="button_yellow">Plus d'informations 
+
+        <button class="button_yellow" id="A3">Plus d'informations 
           <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
           </svg>
         </button>
+
     </div>
     <div class="card_formations">
         <div class="div_card">
@@ -73,31 +77,64 @@
             </div>
             <h3>1ère année</h3>
         </div>
-        <button class="button_orange">Plus d'informations 
+
+        <button class="button_orange" id="M1">Plus d'informations 
           <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6.28906 8.33625L7.87531 6.75L14.6253 13.5L7.87531 20.25L6.28906 18.6638L11.4416 13.5L6.28906 8.33625ZM13.0391 8.33625L14.6253 6.75L21.3753 13.5L14.6253 20.25L13.0391 18.6638L18.1916 13.5L13.0391 8.33625V8.33625Z" fill="#293C4B"/>
           </svg>
         </button>
+
     </div>
 </div>
 
-<div class="partenaire">
-    <img src="img/partenaire1.png" alt="partenaire">
-    <img src="img/partenaire2.png" alt="partenaire">
-    <img src="img/partenaire3.png" alt="partenaire">
-    <img src="img/partenaire4.png" alt="partenaire">
-    <img src="img/partenaire5.png" alt="partenaire">
-    <img src="img/partenaire6.png" alt="partenaire">
-    <img src="img/partenaire7.png" alt="partenaire">
-    <img src="img/partenaire8.png" alt="partenaire">
-    <img src="img/partenaire9.png" alt="partenaire">
-</div>
+<section class="first slider">
+  <img src="img/slider/DABBA.png" alt="">
+  <img src="img/slider/generation-lumiere.jpeg" alt="">
+  <img src="img/slider/graines-electroniques.png" alt="">
+  <img src="img/slider/Horizon-dailes.png" alt="">
+  <img src="img/slider/institut-de-tramayes.png" alt="">
+  <img src="img/slider/Les-Alchimistes.jpeg" alt="">
+  <img src="img/slider/LOGO-Institut-transitions.png" alt="">
+  <img src="img/slider/mouvement-de-palier.png" alt="">
+  <img src="img/slider/Notre-affaire-a-tous.png" alt="">
+  <img src="img/slider/partenaire1.png" alt="">
+  <img src="img/slider/partenaire2.png" alt="">
+  <img src="img/slider/partenaire3.png" alt="">
+  <img src="img/slider/partenaire4.png" alt="">
+  <img src="img/slider/partenaire5.png" alt="">
+  <img src="img/slider/partenaire6.png" alt="">
+  <img src="img/slider/partenaire7.png" alt="">
+  <img src="img/slider/partenaire8.png" alt="">
+  <img src="img/slider/partenaire9.png" alt="">
+  <img src="img/slider/terre-et-humanisme.png" alt="">
+  <img src="img/slider/Tous-Elus.png" alt="">
+  <img src="img/slider/DABBA.png" alt="">
+  <img src="img/slider/generation-lumiere.jpeg" alt="">
+  <img src="img/slider/graines-electroniques.png" alt="">
+  <img src="img/slider/Horizon-dailes.png" alt="">
+  <img src="img/slider/institut-de-tramayes.png" alt="">
+  <img src="img/slider/Les-Alchimistes.jpeg" alt="">
+  <img src="img/slider/LOGO-Institut-transitions.png" alt="">
+  <img src="img/slider/mouvement-de-palier.png" alt="">
+  <img src="img/slider/Notre-affaire-a-tous.png" alt="">
+  <img src="img/slider/partenaire1.png" alt="">
+  <img src="img/slider/partenaire2.png" alt="">
+  <img src="img/slider/partenaire3.png" alt="">
+  <img src="img/slider/partenaire4.png" alt="">
+  <img src="img/slider/partenaire5.png" alt="">
+  <img src="img/slider/partenaire6.png" alt="">
+  <img src="img/slider/partenaire7.png" alt="">
+  <img src="img/slider/partenaire8.png" alt="">
+  <img src="img/slider/partenaire9.png" alt="">
+  <img src="img/slider/terre-et-humanisme.png" alt="">
+  <img src="img/slider/Tous-Elus.png" alt="">
+</section>
 
 <main class="formations">
 
       <div class="fond"></div>
 
-    <section>
+    <section id="A1B">
       
       <div class="left">
         <h2>Bachelor Premiere Année</h2>
@@ -119,7 +156,7 @@
 
     </section>
 
-    <section>
+    <section id="A3B">
       <div class="illus">
         <img src="img/illu_2.png" alt="illu">
         <div class="bg"></div>
@@ -139,7 +176,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="M1B">
       
       <div class="left">
         <h2>Bachelor Premiere Année</h2>
