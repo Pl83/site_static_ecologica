@@ -192,7 +192,6 @@
     bottom: 0;
   }
 
-
   section {
     display: flex;
     flex-direction: row;
@@ -515,14 +514,15 @@ main {
 }
 
 .card_ecologica {
-    margin-top: 8em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    gap: 3em;
-    padding: 0 24em;
-    margin-bottom: 6em;
+    width: 70%;
+    margin: auto;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    justify-content: space-between;
     
     .card_formations {
         border: #314C61 solid;
@@ -531,7 +531,8 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 8em;
+        justify-content: space-between;
+        height: 50vh;
 
         .div_card {
 
@@ -567,9 +568,12 @@ main {
         text-decoration: none;
         background-color: #FB6A35;
         border: #314C61 solid 2px;
-        border-radius: 6px;
-        padding: 14px 34px;
+        border-radius: var(--br);
+        padding: 0.5em 1em;
         font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 
     .button_green {
@@ -577,9 +581,12 @@ main {
         text-decoration: none;
         background-color: #B0DFD9;
         border: #314C61 solid 2px;
-        border-radius: 6px;
-        padding: 14px 34px;
+        border-radius: var(--br);
+        padding: 0.5em 1em;
         font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 
     .button_yellow {
@@ -587,9 +594,12 @@ main {
         text-decoration: none;
         background-color: #FEDD67;
         border: #314C61 solid 2px;
-        border-radius: 6px;
-        padding: 14px 34px;
+        border-radius: var(--br);
+        padding: 0.5em 1em;
         font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -852,4 +862,175 @@ main {
     }
 
   }
+}
+
+.presentation_ecologica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 4em;
+        h2 {
+            font-size: 50px;
+        }
+    
+        h3 {
+            font-size: 32px;
+        }
+    
+        p {
+            font-size: 18px;
+            color: #000000;
+            line-height: 2em;
+        }
+    }
+}
+
+hr {
+    border: solid 1px #293946;
+}
+
+.grid-ecologica {
+    display: grid;
+    gap: 1em;
+    padding: 5em 12em;
+    font-size: 18px;
+    color: #000000;
+    line-height: 2em;
+    margin-top: 2em;
+
+    .one {
+        grid: 1/3;
+        grid-row: 1;
+    }
+
+    .two {
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+    }
+
+    .three {
+        grid-column: 1;
+        grid-row: 3 / 3;
+        font-size: 20px;
+    }
+
+    .four {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    h4 {
+        margin-bottom: 2em;
+    }
+}
+
+.absolute-flower-ecologica {
+    position: relative;
+
+    .absolute1 {
+        position: absolute;
+        top: 45%;
+        left: 0;
+    }
+
+    .absolute2 {
+        position: absolute;
+        top: -5%;
+        left: 0;
+    }
+
+    .absolute3 {
+        position: absolute;
+        bottom: -10%;
+        right: 0;
+    }
+}
+
+.ecologica-description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+
+    img {
+        width: 40%;
+    }
+
+    p {
+        padding: 4em;
+        line-height: 2em;
+    }
+}
+
+.reseau-ecologica {
+    position: relative;
+    
+    .flex-reseau {
+        display: flex;
+        justify-content: flex-start;
+        gap: 3em;
+        flex-direction: column;
+        padding-right: 24em;
+        padding-left: 6em;
+        padding-top: 6em;
+        padding-bottom: 6em;
+
+        p {
+            font-size: 20px;
+            line-height: 2em;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.plan-campus {
+
+    position: relative;
+
+    padding: 4em 8em;
+    h2 {
+        margin-bottom: 2em;
+    }
+
+    .flex-map-campus {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .contact-page {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding-right: 14em;
+        padding-bottom: 10em;
+        div {
+            display: flex;
+            gap: 2em;
+        }
+    }
+
+    .ordi {
+        position: absolute;
+        bottom: 6%;
+        right: 13%;
+    }
 }
