@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  color: #314C61;
 }
 
 .ecologica-menu {
@@ -144,6 +143,196 @@
   }
 
 }
+
+
+body {
+  main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .formations {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20vh;
+      padding-top: 15vh ;
+      padding-bottom: 23vh ;
+    }
+
+    section {
+      height: 50vh;
+      //border: 1px solid red;
+    }
+
+    .P1{
+      z-index: 3;
+      .fondS{
+        background-color: rgba(165, 203, 198, 0.3);
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        scale: 1.3;
+        rotate: -3deg;
+        z-index: -1;
+      }
+      h2{
+        color: #FB6A35;
+      }
+      div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+        .GT{
+          display: flex;
+          flex-direction: column;
+          p{
+            color: black;
+            font-size: 20px;
+            padding-bottom: 50px;
+          }
+          button{
+            width:15%;
+            border: none;
+            background-color: #B0DFD9;
+            color: #314C61;
+          }
+        }
+        .GI{
+          img{
+            width:40vh ;
+            height: 40vh;
+            margin-left: 40%;
+            z-index: 5;
+          }
+          .ICC{
+            width: 45vh;
+            height: 25vh;
+            position: absolute;
+            z-index: 2;
+            background-color: rgba(176, 223, 217, 0.55);
+            right: 15vh;
+            bottom: 20vh;
+          }
+        }
+      }
+      button{
+        border-radius: 4%;
+        height: 3vh;
+        width: 15vh;
+      }
+
+    }
+
+    .P2{
+      z-index: 3;
+      h2{
+        color: #FB6A35;
+      }
+      div{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin: auto;
+        .GT{
+          display: flex;
+          flex-direction: column;
+          p{
+            color: black;
+            font-size: 20px;
+            padding-bottom: 50px;
+          }
+          button{
+            width:15%;
+            border: none;
+            background-color: #B0DFD9;
+            color: #314C61;
+          }
+        }
+        .GI{
+          img{
+            width:40vh ;
+            height: 40vh;
+            margin-right: 40%;
+          }
+          .ICC{
+            width: 45vh;
+            height: 25vh;
+            //position: absolute;
+            z-index: 2;
+            background-color: rgba(254, 221, 103, 0.5);
+            right: 15vh;
+            bottom: 20vh;
+          }
+        }
+      }
+        button{
+          border-radius: 4%;
+          height: 3vh;
+          width: 15vh;
+        }
+      }
+    .P3{
+      z-index: 3;
+      .fondS{
+        background-color: rgba(165, 203, 198, 0.3);
+        position: absolute;
+        width: 100%;
+        height: inherit;
+        scale: 1.3;
+        rotate: -3deg;
+        z-index: -1;
+      }
+      h2{
+        color: #FB6A35;
+      }
+      div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+        .GT{
+          display: flex;
+          flex-direction: column;
+          p{
+            color: black;
+            font-size: 20px;
+            padding-bottom: 50px;
+          }
+          button{
+            width:15%;
+            border: none;
+            background-color: #B0DFD9;
+            color: #314C61;
+          }
+        }
+        .GI{
+          img{
+            width:40vh ;
+            height: 40vh;
+            margin-left: 40%;
+          }
+          .ICC{
+            width: 45vh;
+            height: 25vh;
+            //position: absolute;
+            z-index: 2;
+            background-color: rgba(176, 223, 217, 0.55);
+            right: 30vh;
+            bottom: 25vh;
+          }
+        }
+      }
+      button{
+        border-radius: 4%;
+        height: 3vh;
+        width: 15vh;
+      }
+    }
+    }
+  }
 
 footer {
   background-color: #293946;

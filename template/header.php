@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<header>
 <div class="ecologica-menu">
     <div class="logo-menu">
         <img src="../img/logo.png" alt="logo">
@@ -26,3 +26,4 @@
         <a href="">Candidatez</a>
     </div>
 </div>
+</header>
