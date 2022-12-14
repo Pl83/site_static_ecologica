@@ -95,6 +95,7 @@
   padding: 10px 15px;
   font-size: 24px;
   margin-right: 1em;
+  border: none;
 }
 .transition_ecole .t3 .button_ecole2 {
   text-decoration: none;
@@ -911,6 +912,41 @@ hr {
   background-color: white;
   border: 1px solid var(--bleu);
   color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .transition_ecole {
+    flex-direction: column;
+  }
+  .transition_ecole .t1 {
+    width: 100%;
+  }
+  .transition_ecole .t1 h2 {
+    font-size: 38px;
+    font-weight: lighter;
+  }
+  .transition_ecole .t2 h3 {
+    font-size: 12px;
+  }
+  .transition_ecole .t3 .button_ecole1 {
+    font-size: 14px;
+  }
+  .transition_ecole .t3 .button_ecole2 {
+    font-size: 14px;
+  }
+  .transition_picture {
+    margin-top: 7em;
+    width: 70%;
+  }
+  .transition_picture button {
+    font-size: 10px;
+  }
+  .transition_picture img {
+    width: 100%;
+  }
+  .transition_picture .webinaire h3 {
+    font-size: 9px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

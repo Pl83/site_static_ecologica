@@ -104,6 +104,7 @@
       padding: 10px 15px;
       font-size: 24px;
       margin-right: 1em;
+      border: none;
     }
 
     .button_ecole2 {
@@ -1061,6 +1062,49 @@ hr {
       background-color: white;
       border: 1px solid var(--bleu);
       color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .transition_ecole{
+    flex-direction: column;
+    .t1 {
+      width: 100%;
+      h2 {
+        font-size: 38px;
+        font-weight: lighter;
+      }
+    }
+    .t2 {
+      h3 {
+        font-size: 12px;
+      }
+    }
+    .t3 {
+  
+      .button_ecole1 {
+        font-size: 14px;
+      }
+  
+      .button_ecole2 {
+        font-size: 14px;
+      }
+    }
+  }
+  .transition_picture {
+    margin-top: 7em;
+    width: 70%;
+    button {
+      font-size: 10px;
+    }
+    img{
+      width: 100%;
+    }
+    .webinaire{
+      h3{
+        font-size: 9px;
+      }
     }
   }
 }
