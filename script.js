@@ -68,7 +68,3 @@ burger.addEventListener("click", function() {
 });
 
 
-
-
-
-

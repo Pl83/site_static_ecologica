@@ -169,17 +169,16 @@
 
 <main class="formations">
 
-      <div class="fond"></div>
-
     <section id="A1B">
+      <div class="fond"></div>
       
       <div class="left">
         <h2>Bachelor Premiere Année</h2>
 
         <div class="txt">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?
+          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.
+          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
         </div>
 
         <a href="form.php"><button>Ici pour Candidater</button></a>
@@ -203,9 +202,9 @@
         <h2>Bachelor Troisième Année</h2>
 
         <div class="txt">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?
+          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.
+          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
         </div>
 
         <a href="form.php"><button>Ici pour Candidater</button></a>
@@ -215,13 +214,14 @@
 
     <section id="M1B">
       
+      <div class="fond2"></div>
       <div class="left">
         <h2>Bachelor Premiere Année</h2>
 
         <div class="txt">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?
+          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi at autem doloremque earum eius et exercitationem explicabo facere incidunt magni minima modi, repellendus sunt tempore. Consequatur cumque illo odio quaerat quis quos.
+          <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
         </div>
 
         <a href="form.php"><button>Ici pour Candidater</button></a>
@@ -234,8 +234,6 @@
       </div>
       
     </section>
-
-    <div class="fond2"></div>
 </main>
 <script>
     document.getElementById('A1').addEventListener('click', function () {
