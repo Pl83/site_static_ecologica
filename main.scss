@@ -261,12 +261,13 @@ main {
       .bg {
         position: absolute;
         width: 50vh;
-        height: 20vh;
+        height: 25vh;
         background-color: var(--bleu);
         border-radius: var(--br);
         opacity: 55%;
         z-index: -1;
         bottom: 0;
+        right: 25vh;
       }
     }
   }
@@ -283,6 +284,7 @@ main {
       .bg {
         background-color: var(--jaune);
         right: 0;
+        bottom: -5vh;
       }
 
       img {
@@ -1206,6 +1208,70 @@ hr {
       a {
         font-size: 15px;
         padding: 0.5em 1em;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 0;
+    height: 50vh;
+    justify-content: space-between;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 50vh;
+
+      div:nth-child(2){
+        margin-top: 3vh;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 40vh;
+        margin-bottom: 2vh;
+
+        h4 {
+          width: 100%;
+        }
+
+        div {
+          height: 100%;
+        }
+
+        ul {
+          display: none;
+        }
+      }
+
+      section:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+
+        ul {
+          display: flex;
+          flex-direction: row;
+
+          li {
+            display: flex;
+
+            a {
+              display: flex;
+
+              ion-icon {
+                width: 50px;
+                height: 50px;
+                fill: white;
+              }
+            }
+          }
+        }
       }
     }
   }

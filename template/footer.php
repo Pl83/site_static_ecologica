@@ -32,7 +32,7 @@
     </section>
     <section>
       <p >Copyright © 2022 <br> IIM - Institue de l'internet et des multimedia</p>
-      <ul>
+      <ul class="reseaux">
         <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
         <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
         <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
