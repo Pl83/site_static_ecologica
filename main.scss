@@ -1309,9 +1309,14 @@ hr {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1010px) {
+
   .ecologica-menu {
     .logo-menu {
+      .svgnavbar{
+        width: 123.97px;
+        height: 20px;
+      }
       ul {
         a{
           font-size: smaller;
@@ -1325,7 +1330,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 860px) {
   .ecologica-menu {
     .logo-menu {
       ul {
@@ -1379,7 +1384,7 @@ hr {
   }
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 860px) {
   .ulnav{
     display: flex !important;
   }
@@ -1389,5 +1394,14 @@ hr {
   .ecologica-menu{
     height: 70px !important;
   }
+}
+
+@media only screen and (max-width: 450px) {
+  .ecologica-menu {
+    .logo-menu {
+      .svgnavbar {
+        display: none;
+      }
+    }}
 }
 
