@@ -1158,6 +1158,17 @@ button:hover {
   margin-top: 6em;
   position: relative;
 }
+.background-pedagogie .background-blue {
+  background-color: #B0DFD9;
+  opacity: 30%;
+  width: 110%;
+  height: 65vh;
+  position: absolute;
+  transform: rotate(-5deg);
+  left: -5%;
+  z-index: -2;
+  top: -15%;
+}
 .background-pedagogie .pedagogie-ecologica {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1191,17 +1202,6 @@ button:hover {
   }
   .ecologica-menu .logo-menu ul a {
     font-size: smaller;
-  }
-  .background-blue {
-    background-color: #B0DFD9;
-    opacity: 30%;
-    width: 110%;
-    height: 62vh;
-    position: absolute;
-    transform: rotate(-5deg);
-    left: -5%;
-    z-index: -2;
-    top: -15%;
   }
 }
 .candidater a {
