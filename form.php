@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-
+<main>
 <div class="form">
   <div class="haut">
     <img src="img/logo.svg" alt="logo">
@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <div class="candidature">
+  <!--  <div class="candidature">
     <form action="post">
       <div>
         <label for="civilité" >Civilité*</label>
@@ -59,7 +59,37 @@
       </div>
     </form>
     <button type="submit">Suivant</button>
+  </div> -->
+
+  <div class="candidature2">
+    <form action="post">
+      <div>
+        <label for="association" >Si j'étais une association, je serais :</label>
+        <input id="association" type="text">
+      </div>
+
+      <div>
+        <label for="oeuvre" >Si j’étais une oeuvre (toutes les formes d’art sont valables), je serais : </label>
+        <input id="oeuvre" type="text">
+      </div>
+
+      <div>
+        <label for="auteur" >Si j’étais un.e auteur.rice, je serais :</label>
+        <input id="auteur" type="text">
+      </div>
+
+      <div>
+          <label for="personnalite" >Si j’étais une personnalité engagée, je serais :</label>
+          <input id="personnalite" type="text">
+        </div>
+    </form>
+
+    <button type="submit">Suivant</button>
+
   </div>
 </div>
+
+
+
 
 <?php require_once "template/footer.php"?>
