@@ -942,6 +942,10 @@ footer section:nth-child(2) ul li ion-icon {
   margin-left: 46%;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1000px) {
   .transition_ecole {
     flex-direction: column;
@@ -986,30 +990,6 @@ footer section:nth-child(2) ul li ion-icon {
   }
   .transition_picture .webinaire h3 {
     font-size: 9px;
-  }
-  .ecologica-menu {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 8vh;
-  }
-  .ecologica-menu svg {
-    width: 40px;
-    height: 40px;
-    margin-left: -5vh;
-  }
-  .ecologica-menu img {
-    display: none;
-  }
-  .ecologica-menu ul {
-    display: none;
-  }
-  .ecologica-menu .candidater {
-    margin-right: -5vh;
-  }
-  .ecologica-menu .candidater a {
-    font-size: 15px;
-    padding: 0.5em 1em;
   }
   footer {
     display: flex;
@@ -1148,6 +1128,87 @@ footer section:nth-child(2) ul li ion-icon {
   left: -5%;
   z-index: -2;
   top: -15%;
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 1010px) {
+  .ecologica-menu .logo-menu .svgnavbar {
+    width: 123.97px;
+    height: 20px;
+  }
+  .ecologica-menu .logo-menu ul a {
+    font-size: smaller;
+  }
+  .candidater a {
+    border-radius: 4px;
+    padding: 0.5em;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .ecologica-menu .logo-menu ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+  }
+  .ecologica-menu .logo-menu ul a {
+    color: #FB6A35;
+  }
+  .candidater {
+    display: none;
+  }
+  .candidater a {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+  }
+  .burger {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    background-color: transparent;
+  }
+  .burger div {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  .burger .D1 {
+    color: white;
+  }
+  .burger .D2 {
+    position: relative;
+  }
+  .burger .D2CC {
+    top: 10px;
+  }
+  .burger .D3 {
+    color: white;
+  }
+  .burger:hover {
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 860px) {
+  .ulnav {
+    display: flex !important;
+  }
+  .candidater {
+    display: flex !important;
+  }
+  .ecologica-menu {
+    height: 70px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .ecologica-menu .logo-menu .svgnavbar {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
