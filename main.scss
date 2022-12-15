@@ -45,8 +45,10 @@ main {
   }
   .logo-menu {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 0 2em;
+    width: 90%;
   }
 }
 
@@ -1313,7 +1315,19 @@ button:hover{
         }
       }
     }
-  }  
+  }
+
+  .background-blue {
+    background-color: #B0DFD9;
+    opacity: 30%;
+    width: 110%;
+    height: 65vh;
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -5%;
+    z-index: -2;
+    top: -15%;
+  }
 }
 
 
@@ -1334,18 +1348,6 @@ button:hover{
         }
       }
     }
-  }
-
-  .background-blue {
-    background-color: #B0DFD9;
-    opacity: 30%;
-    width: 110%;
-    height: 62vh;
-    position: absolute;
-    transform: rotate(-5deg);
-    left: -5%;
-    z-index: -2;
-    top: -15%;
   }
 }
   .candidater a {
@@ -1428,3 +1430,4 @@ button:hover{
     }
   }
 }
+
