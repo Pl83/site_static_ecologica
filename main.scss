@@ -742,174 +742,150 @@ footer {
 }
 
 .presentation_ecologica {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+    color: #FB6A35;
+    text-align: center;
+    margin-top: 1em;
+  }
 
     div {
         display: flex;
         flex-direction: column;
         gap: 2em;
-        padding: 4em;
-        h2 {
-            font-size: 50px;
-        }
+        padding: 4em 8em;
     
         h3 {
             font-size: 32px;
         }
     
         p {
-            font-size: 18px;
+            font-size: 20px;
             color: #000000;
             line-height: 2em;
+            text-align: justify;
         }
     }
 }
 
-hr {
-    border: solid 1px #293946;
-}
-
-.grid-ecologica {
-    display: grid;
-    gap: 1em;
-    padding: 5em 12em;
-    font-size: 18px;
-    color: #000000;
-    line-height: 2em;
-    margin-top: 2em;
-
-    .one {
-        grid: 1/3;
-        grid-row: 1;
-    }
-
-    .two {
-        grid-column: 2 / 4;
-        grid-row: 1 / 3;
-    }
-
-    .three {
-        grid-column: 1;
-        grid-row: 3 / 3;
+.societe-ecologica-relative {
+  position: relative;
+  .societe-ecologica {
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      text-align: justify;
+      padding: 4em 8em;
+      line-height: 2em;
+      margin-top: 10em;
+  
+      p {
         font-size: 20px;
+        color: #000000;
+      }
+  
+      h2 {
+        font-size: 32px;
+        margin: 2em 0;
+      }
     }
+  }
 
-    .four {
-        grid-column: 3;
-        grid-row: 3;
-    }
-
-    h4 {
-        margin-bottom: 2em;
-    }
-}
-
-.absolute-flower-ecologica {
-    position: relative;
-
-    .absolute1 {
-        position: absolute;
-        top: 45%;
-        left: 0;
-    }
-
-    .absolute2 {
-        position: absolute;
-        top: -5%;
-        left: 0;
-    }
-
-    .absolute3 {
-        position: absolute;
-        bottom: -10%;
-        right: 0;
-    }
-}
-
-.ecologica-description {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    align-items: center;
-
+  div {
     img {
-        width: 40%;
+      position: absolute;
+      right: 0;
+      bottom: -5%;
+      width: 15%;
     }
-
-    p {
-        padding: 4em;
-        line-height: 2em;
-    }
-}
-
-.reseau-ecologica {
-    position: relative;
-    
-    .flex-reseau {
-        display: flex;
-        justify-content: flex-start;
-        gap: 3em;
-        flex-direction: column;
-        padding-right: 24em;
-        padding-left: 6em;
-        padding-top: 6em;
-        padding-bottom: 6em;
-
-        p {
-            font-size: 20px;
-            line-height: 2em;
-        }
-
-        h2 {
-            font-size: 32px;
-        }
-    }
-
-    img {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
+  }
 }
 
 .plan-campus {
 
-    position: relative;
+  position: relative;
 
-    padding: 4em 8em;
-    h2 {
-        margin-bottom: 2em;
-    }
+  padding: 4em 8em 6em 8em;
+  h2 {
+      margin-bottom: 2em;
+  }
 
-    .flex-map-campus {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .flex-map-campus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    h3 {
-        font-size: 32px;
-    }
+  h3 {
+    font-size: 32px;
+  }
 
-    .contact-page {
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-right: 14em;
+    justify-content: center;
+  }
+
+  .background-blue {
+    background-color: #B0DFD9;
+    opacity: 30%;
+    width: 110%;
+    height: 55vh;
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -5%;
+    z-index: -2;
+    bottom: 5%;
+  }
+}
+
+.equipe {
+  margin-top: 6em;
+
+  h2 {
+    margin-left: 7em;
+  }
+  .flex-equipe {
+    text-align: center;
+    padding: 1em 6em 2em 6em;
+
+    div {
+      display: flex;
+      padding: 2em;
+      align-items: center;
+      img {
+        width: 250px;
+        border-radius: 1000px;
+        height: 250px;
+        object-fit: cover;
+      }
+
+      h3 {
+        margin-top: 1em;
+        font-size: 24px;
+      }
+
+      p {
+        text-align: justify;
+        padding: 1em 6em;
+        font-size: 20px;
+        line-height: 2em;
+      }
+
+      div {
         display: flex;
         flex-direction: column;
-        gap: 2em;
-        padding-right: 14em;
-        padding-bottom: 10em;
-        div {
-            display: flex;
-            gap: 2em;
-        }
+      }
     }
-
-    .ordi {
-        position: absolute;
-        bottom: 6%;
-        right: 13%;
-    }
+  }
 }
 
 .form {
@@ -1279,7 +1255,7 @@ hr {
       }
     }
   }
-  
+
 
   .card_ecologica{
     display: none;
@@ -1332,5 +1308,48 @@ hr {
   .button_infos_orange{
     background-color: var(--orange);
   }
+  }
+}
+
+.background-pedagogie {
+  margin-top: 6em;
+  position: relative;
+
+  .pedagogie-ecologica {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 2em 6em;
+  
+    div {
+      img {
+        width: 40%;
+      }
+      div {
+        padding: 2em 8em;
+        h3 {
+          font-size: 20px;
+          margin-bottom: 1em;
+        }
+        
+        p {
+          font-size: 16px;
+          line-height: 2em;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  .background-blue {
+    background-color: #B0DFD9;
+    opacity: 30%;
+    width: 110%;
+    height: 62vh;
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -5%;
+    z-index: -2;
+    top: -15%;
   }
 }
