@@ -9,6 +9,10 @@
   color: var(--font);
 }
 
+main {
+  overflow: hidden;
+}
+
 :root {
   --font: #314C61 ;
   --bleu: #B0DFD9 ;

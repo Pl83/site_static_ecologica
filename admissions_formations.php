@@ -1,5 +1,4 @@
 <?php require_once "template/header.php"?>
-<main>
 <div class="transition_ecole">
     <div class="titre_transition">
         <div class="t1">
@@ -199,7 +198,6 @@
       
     </section>
 
-      <div class="fond2"></div>
+    <div class="fond2"></div>
 </main>
-
 <?php require_once "template/footer.php"?>
