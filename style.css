@@ -885,6 +885,9 @@ hr {
   border: 1px solid var(--bleu);
   color: white;
 }
+.form .candidature2 {
+  display: none;
+}
 .form .candidature2 form {
   margin: 5vh 0 2em 0;
   padding: 1em;
@@ -923,6 +926,9 @@ hr {
   padding: 10px 20px;
   font-size: 14px;
   margin-left: 6em;
+}
+.form .candidature3 {
+  display: none;
 }
 .form .candidature3 form {
   margin: 5vh 0 2em 0;

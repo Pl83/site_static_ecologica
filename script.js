@@ -5,7 +5,7 @@ let candidater = document.querySelector(".candidater");
 let D1 = document.querySelector(".D1");
 let D2 = document.querySelector(".D2");
 let D3 = document.querySelector(".D3");
-var openingnav = document.querySelector(".ecologica-menu").clientHeight;
+
 
 const sleep = (time) => {
   return new Promise((resolve) => setTimeout(resolve, time))
@@ -66,7 +66,6 @@ burger.addEventListener("click", function() {
   }
 
 });
-
 
 
 
