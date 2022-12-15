@@ -1063,8 +1063,59 @@ hr {
       margin-left: 6em;
     }
   }
-}
 
+  .candidature3 {
+    form {
+      margin: 5vh 0 2em 0;
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1em;
+  
+        label {
+          font-size: 16px;
+          font-weight: 300;
+        }
+  
+        input {
+          border: #A4A4A4 1px solid;
+          border-radius: var(--br);
+          padding: 0.5em 1em;
+          width: 60%;
+          height: 15vh;
+        }
+  
+        input:focus {
+          outline:none;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          width: 60%;
+        }
+      }
+    }
+
+    button {
+      color: white;
+      text-decoration: none;
+      background: linear-gradient(180deg, #FF8D45 0%, #FB6A35 100%);
+      border: #FB6A35 solid 1px;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-size: 14px;
+      margin-left: 46%;
+    }
+  }
+}
 
 
 @media only screen and (max-width: 1000px) {

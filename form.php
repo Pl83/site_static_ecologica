@@ -61,7 +61,7 @@
     <button type="submit">Suivant</button>
   </div> -->
 
-  <div class="candidature2">
+  <!-- <div class="candidature2">
     <form action="post">
       <div>
         <label for="association" >Si j'étais une association, je serais :</label>
@@ -86,6 +86,17 @@
 
     <button type="submit">Suivant</button>
 
+  </div> -->
+
+  <div class="candidature3">
+    <form action="post">
+      <div>
+        <label for="lien" >Lien file vert</label>
+        <input id="lien" type="text">
+        <p>Pour finaliser votre candidature, rendez-vous sur le site FileVert. Glissez la photocopie de votre dernier diplôme (ou de vos relevés de notes), celle de votre carte d'identité et votre document de motivation. Cliquez sur "Déposer ici vos fichiers", de préférence dans un dossier compressé nommé à votre nom. Cliquez sur "Envoyer".</p>
+      </div>
+    </form>
+    <button type="submit">Envoyer votre candidature</button>
   </div>
 </div>
 
