@@ -21,12 +21,10 @@
     <div class="transition_picture">
         <div class="img_background">
             <img src="img/pict.png" alt="pictogramme">
-        </div>
-        <div class="background_absolute">
-
+            <div class="background_absolute"></div>
         </div>
         <div class="webinaire">
-            <h3>Venez nous découvrir en <br>participant à notre <br>Webinaire.</h3>
+            <h3>Venez nous découvrir en participant à notre Webinaire.</h3>
         </div>
         <button>Inscription</button>
     </div>
