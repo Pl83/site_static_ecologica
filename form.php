@@ -61,7 +61,7 @@
     <button type="submit">Suivant</button>
   </div> -->
 
-  <!-- <div class="candidature2">
+  <div class="candidature2">
     <form action="post">
       <div>
         <label for="association" >Si j'étais une association, je serais :</label>
@@ -86,9 +86,9 @@
 
     <button type="submit">Suivant</button>
 
-  </div> -->
+  </div>
 
-  <div class="candidature3">
+  <!-- <div class="candidature3">
     <form action="post">
       <div>
         <label for="lien" >Lien file vert</label>
@@ -97,7 +97,7 @@
       </div>
     </form>
     <button type="submit">Envoyer votre candidature</button>
-  </div>
+  </div> -->
 </div>
 
 

@@ -887,6 +887,7 @@ hr {
   width: 100%;
   justify-content: space-between;
   gap: 1em;
+  margin-top: 2em;
 }
 .form .candidature2 form div label {
   font-size: 16px;
