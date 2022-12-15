@@ -1,5 +1,5 @@
 <?php require_once "template/header.php"?>
-
+<main>
 <div class="transition_ecole">
     <div class="titre_transition">
         <div class="t1">
@@ -146,7 +146,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
         </div>
 
-        <button>Ici pour Candidater</button>
+        <a href="form.php"><button>Ici pour Candidater</button></a>
 
       </div>
 
@@ -172,7 +172,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
         </div>
 
-        <button>Ici pour Candidater</button>
+        <a href="form.php"><button>Ici pour Candidater</button></a>
 
       </div>
     </section>
@@ -188,7 +188,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta facere quidem sed tempore velit vero. Accusantium autem blanditiis corporis dignissimos dolores odio optio reiciendis rem, sit veniam. Aliquam assumenda cum modi sit?</p>
         </div>
 
-        <button>Ici pour Candidater</button>
+        <a href="form.php"><button>Ici pour Candidater</button></a>
 
       </div>
 
