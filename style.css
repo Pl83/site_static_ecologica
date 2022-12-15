@@ -1013,30 +1013,6 @@ hr {
   .transition_picture .webinaire h3 {
     font-size: 9px;
   }
-  .ecologica-menu {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 8vh;
-  }
-  .ecologica-menu svg {
-    width: 40px;
-    height: 40px;
-    margin-left: -5vh;
-  }
-  .ecologica-menu img {
-    display: none;
-  }
-  .ecologica-menu ul {
-    display: none;
-  }
-  .ecologica-menu .candidater {
-    margin-right: -5vh;
-  }
-  .ecologica-menu .candidater a {
-    font-size: 15px;
-    padding: 0.5em 1em;
-  }
   footer {
     display: flex;
     flex-direction: column;
