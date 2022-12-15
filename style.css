@@ -26,7 +26,7 @@
   height: 70px;
 }
 .ecologica-menu img {
-  height: 40px;
+  height: 30px;
   width: auto;
 }
 .ecologica-menu ul {
@@ -91,15 +91,15 @@
   color: white;
   text-decoration: none;
   background-color: #FB6A35;
-  border: #FB6A35 solid 1px;
   border-radius: 4px;
   padding: 10px 15px;
   font-size: 24px;
   margin-right: 1em;
+  border: none;
 }
 .transition_ecole .t3 .button_ecole2 {
   text-decoration: none;
-  border: #FB6A35 solid 1px;
+  border: #FB6A35 solid 2px;
   border-radius: 4px;
   padding: 10px 15px;
   color: #FB6A35;
@@ -125,13 +125,14 @@
   background-color: white;
 }
 .transition_ecole .transition_picture .webinaire {
-  border: #314C61 solid 1px;
+  border: #314C61 solid 2px;
   font-size: 20px;
   background-color: white;
   padding: 15px;
   position: absolute;
   top: -50px;
   left: -50px;
+  border-radius: var(--br);
 }
 .transition_ecole .transition_picture .background_absolute {
   background-color: #D4EDEA;
@@ -257,170 +258,88 @@
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #293946;
-  color: #f1f1f1;
+  padding: 10vh 0;
 }
-footer .FS {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 3em;
-}
-footer .FS1 .FDP {
-  max-width: 15em;
-  color: rgba(241, 241, 241, 0.7137254902);
-}
-footer .FS1 .CF h3 {
-  color: rgba(241, 241, 241, 0.7137254902);
-  padding-bottom: 0.5em;
-}
-footer .FS1 .CF ul li {
-  list-style: none;
-  padding-bottom: 0.5em;
-}
-footer .FS1 .CF ul li a {
-  text-decoration: none;
-  color: #f1f1f1;
-}
-footer .FS1 .CF3 h3 {
-  padding-bottom: 0.5em;
-  color: #f1f1f1;
-}
-footer .FS1 .CF3 p {
-  color: #f1f1f1;
-}
-footer .FS2 {
-  list-style: none;
-  padding-bottom: 10px;
-}
-footer .FS2 p {
-  color: #f1f1f1;
-}
-footer .FS2 ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 3em;
-}
-footer .FS2 ul li a ion-icon {
-  fill: #f1f1f1;
-  width: 30px;
-  height: 30px;
-}
-footer main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 90vh;
-  position: relative;
-  overflow: hidden;
-}
-footer main img {
-  position: absolute;
-  z-index: -1;
-}
-footer main img:nth-child(1) {
-  bottom: 35vh;
-  right: -7vh;
-  width: 40vh;
-  transform: scaleX(-1);
-}
-footer main img:nth-child(2) {
-  bottom: 20vh;
-  left: -7vh;
-  width: 35vh;
-}
-footer main img:nth-child(3) {
-  bottom: -2vh;
-  left: 3vh;
-  width: 30vh;
-}
-footer main img:nth-child(4) {
-  bottom: -2vh;
-  right: 0vh;
-  width: 20vh;
-}
-footer main img:nth-child(5) {
-  bottom: -9vh;
-  left: 20vh;
-  width: 20vh;
-}
-footer .bottom {
-  font-family: "Raleway", sans-serif;
-  display: flex;
-  flex-direction: column;
+footer .content {
   width: 90%;
-  height: 80vh;
-  justify-content: space-around;
   margin: auto;
-  align-items: center;
-}
-footer .bottom .titre {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   justify-content: space-between;
-  height: 22%;
+  height: 30vh;
 }
-footer .bottom .titre button {
-  background-color: #D4EDEA;
-  border: none;
-  padding: 1em 1.5em;
-  border-radius: var(--br);
+footer section:nth-child(1) {
+  width: 85%;
+  margin: 0;
 }
-footer .bottom .titre h2 {
-  font-size: 30px;
-  width: 70%;
-}
-footer .bottom .cards {
+footer section {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  width: 80%;
+  color: white;
   justify-content: space-between;
 }
-footer .bottom .cards .card {
+footer section p {
+  color: white;
+}
+footer section h4 {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: 300;
+  width: 24%;
+  font-size: 16px;
+  line-height: 25px;
+}
+footer section div {
   display: flex;
   flex-direction: column;
+  height: 20vh;
   justify-content: space-between;
-  align-items: center;
-  border: solid 2px var(--font);
-  width: 30%;
-  height: 25vh;
-  border-radius: var(--br);
-  padding: 20px 0;
-  background-color: white;
 }
-footer .bottom .cards .card .titre {
-  position: relative;
-  width: 100%;
-  font-family: "Raleway", sans-serif;
+footer section div h3 {
+  color: white;
+  opacity: 50%;
 }
-footer .bottom .cards .card .titre h3 {
-  font-size: 32px;
+footer section div ul {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+}
+footer section div ul li {
+  list-style: none;
+}
+footer section div ul li a {
+  text-decoration: none;
+  color: white;
   font-weight: 300;
 }
-footer .bottom .cards .card .titre svg {
-  position: absolute;
-  right: 25px;
-  top: 15px;
+footer section div ul p {
+  color: white;
+  margin-bottom: 10px;
 }
-footer .bottom .cards .card button {
-  border-radius: var(--br);
-  width: 60%;
+footer section div:nth-child(4) ul {
+  justify-content: start;
+}
+footer section:nth-child(2) ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  width: 20%;
   justify-content: space-between;
-  padding: 0.25em 1em;
-  border: none;
-  background-color: var(--bleu);
+  margin-left: -32vh;
 }
-footer .bottom .cards .card:nth-child(2) button {
-  background-color: var(--jaune);
+footer section:nth-child(2) ul li {
+  list-style: none;
 }
-footer .bottom .cards .card:nth-child(3) button {
-  background-color: var(--orange);
+footer section:nth-child(2) ul li ion-icon {
+  fill: white;
+  width: 30px;
+  height: 30px;
 }
 
 .card_ecologica {
@@ -520,7 +439,7 @@ footer .bottom .cards .card:nth-child(3) button {
 
 /*keyframe animations*/
 .first {
-  animation: bannermove 25s linear infinite;
+  animation: bannermove 55s linear infinite;
 }
 
 @keyframes bannermove {
@@ -655,7 +574,7 @@ main img:nth-child(5) {
   justify-content: space-around;
   position: relative;
   margin-top: 6em;
-  margin-bottom: 8em;
+  margin-bottom: 18em;
 }
 .centipede .chat {
   margin-top: 10vh;
@@ -668,6 +587,11 @@ main img:nth-child(5) {
 }
 .centipede .chat h1 {
   font-size: 50px;
+}
+.centipede .chat p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 80%;
 }
 .centipede .chat .button {
   align-self: left;
@@ -886,6 +810,143 @@ hr {
   position: absolute;
   bottom: 6%;
   right: 13%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.form .haut {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+}
+.form .haut img {
+  width: 50%;
+}
+.form .haut .txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15vh;
+}
+.form .haut .txt .p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5vh;
+  margin-bottom: 2%;
+}
+.form .haut .txt h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.form .haut .txt p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.form .haut .cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+.form .haut .cta button {
+  padding: 0.5em 1em;
+  background-color: var(--bleu);
+  color: white;
+  border: none;
+  border-radius: var(--br);
+  font-size: 16px;
+}
+.form .candidature {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 55vh;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.form .candidature form {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: space-between;
+}
+.form .candidature form div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.form .candidature form div label {
+  font-size: 16px;
+  font-weight: 300;
+  width: 25vh;
+}
+.form .candidature form div input {
+  border: #A4A4A4 1px solid;
+  border-radius: var(--br);
+  padding: 0.5em 1em;
+  width: 25vh;
+}
+.form .candidature form div input:focus {
+  outline: none;
+}
+.form .candidature button {
+  background-color: var(--orange);
+  width: 30%;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: var(--br);
+  color: white;
+}
+.form .candidature .active {
+  background-color: white;
+  border: 1px solid var(--bleu);
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .transition_ecole {
+    flex-direction: column;
+  }
+  .transition_ecole .t1 {
+    width: 100%;
+  }
+  .transition_ecole .t1 h2 {
+    font-size: 38px;
+    font-weight: lighter;
+  }
+  .transition_ecole .t2 h3 {
+    font-size: 12px;
+  }
+  .transition_ecole .t3 .button_ecole1 {
+    font-size: 14px;
+  }
+  .transition_ecole .t3 .button_ecole2 {
+    font-size: 14px;
+  }
+  .transition_picture {
+    margin-top: 7em;
+    width: 70%;
+  }
+  .transition_picture button {
+    font-size: 10px;
+  }
+  .transition_picture img {
+    width: 100%;
+  }
+  .transition_picture .webinaire h3 {
+    font-size: 9px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
