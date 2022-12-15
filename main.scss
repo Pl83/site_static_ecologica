@@ -417,6 +417,10 @@ footer {
   }
 }
 
+.button_ecologica{
+  display: none;
+}
+
 .card_ecologica {
     display: flex;
     flex-direction: row;
@@ -1274,5 +1278,59 @@ hr {
         }
       }
     }
+  }
+  
+
+  .card_ecologica{
+    display: none;
+  }
+
+  .button_ecologica{
+    display: flex;
+    margin: 5em 0 5em 0;
+    justify-content: center;
+    gap: 0.5em;
+    button[class^="button_infos"] {
+      border: #314C61 solid;
+      border-radius: 10px;
+      padding: 1em 1em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 15vh;
+      width: 16vh;
+      .div_button {
+          .img_bachelor {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 0.2em;
+              h2{
+                font-size: 11px;
+              }
+              img {
+                width: 12px;
+                height: 11px;
+            }
+          }
+          h3{
+            font-size: 8px;
+          }
+      }
+  }
+  .vector {
+      width: 30px;
+      height: 30px;
+  }
+  .button_infos_blue{
+    background-color: var(--bleu);
+  }
+  .button_infos_yellow{
+    background-color: var(--jaune);
+  }
+  .button_infos_orange{
+    background-color: var(--orange);
+  }
   }
 }

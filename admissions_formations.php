@@ -30,6 +30,43 @@
 
 </div>
 
+<div class="button_ecologica">
+
+  <button class="button_infos_blue">
+    <div class="div_button">
+      <img src="img/book.svg" alt="book" class="vector">
+      <div class="img_bachelor">
+          <h2>Bachelor</h2>
+          <img src="img/Vector2.png" alt="validé">
+      </div>
+      <h3>1ère année</h3>
+    </div>
+  </button>
+
+  <button class="button_infos_yellow">
+    <div class="div_button">
+      <img src="img/medal.svg" alt="book" class="vector">
+      <div class="img_bachelor">
+          <h2>Bachelor</h2>
+          <img src="img/Vector2.png" alt="validé">
+      </div>
+      <h3>3e année</h3>
+    </div>
+  </button>
+
+  <button class="button_infos_orange">
+    <div class="div_button">
+      <img src="img/hat.svg" alt="book" class="vector">
+      <div class="img_bachelor">
+          <h2>Master</h2>
+          <img src="img/Vector2.png" alt="validé">
+      </div>
+      <h3>1ère année</h3>
+    </div>
+  </button>
+
+</div>
+
 <div class="card_ecologica">
     <div class="card_formations">
         <div class="div_card">
