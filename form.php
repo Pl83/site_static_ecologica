@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="../img/favicon_crop.svg">
+
 <main>
 <div class="form">
   <div class="haut">
