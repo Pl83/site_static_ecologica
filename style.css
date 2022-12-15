@@ -1115,5 +1115,78 @@ hr {
     background-color: var(--orange);
   }
 }
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .ecologica-menu .logo-menu ul a {
+    font-size: smaller;
+  }
+  .candidater a {
+    border-radius: 4px;
+    padding: 0.5em;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .ecologica-menu .logo-menu ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+  }
+  .ecologica-menu .logo-menu ul a {
+    color: #FB6A35;
+  }
+  .candidater {
+    display: none;
+  }
+  .candidater a {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+  }
+  .burger {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    background-color: transparent;
+  }
+  .burger div {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  .burger .D1 {
+    color: white;
+  }
+  .burger .D2 {
+    position: relative;
+  }
+  .burger .D2CC {
+    top: 10px;
+  }
+  .burger .D3 {
+    color: white;
+  }
+  .burger:hover {
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .ulnav {
+    display: flex !important;
+  }
+  .candidater {
+    display: flex !important;
+  }
+  .ecologica-menu {
+    height: 70px !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

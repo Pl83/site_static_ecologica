@@ -11,20 +11,27 @@
 </head>
 <body>
 <header>
-<div class="ecologica-menu">
-    <div class="logo-menu">
-        <img src="../img/logo_blanc.svg" alt="logo">
+    <div class="ecologica-menu">
+        <div class="logo-menu">
+            <img src="../img/logo_blanc.svg" alt="logo">
 
-        <ul>
-            <a href="index.php">Accueil</a>
-            <a href="admissions_formations.php">Admissions & formations</a>
-            <a href="ecologica.php">Ecologica</a>
-            <a href="partenaires.php">Partenaires</a>
-            <a href="contact.php">Contact</a>
-        </ul>
+
+            <ul class="ulnav">
+                <a href="index.php">Accueil</a>
+                <a href="admissions_formations.php">Admissions & formations</a>
+                <a href="ecologica.php">Ecologica</a>
+                <a href="partenaires.php">Partenaires</a>
+                <a href="contact.php">Contact</a>
+            </ul>
+
+        </div>
+        <div class="candidater">
+            <a href="inscription.php">Candidatez</a>
+        </div>
+        <section class="burger">
+            <div class="D1"></div>
+            <div class="D2"></div>
+            <div class="D3"></div>
+        </section>
     </div>
-    <div class="candidater">
-        <a href="inscription.php">Candidatez</a>
-    </div>
-</div>
 </header>
