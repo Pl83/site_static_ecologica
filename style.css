@@ -45,10 +45,8 @@ main {
 }
 .ecologica-menu .logo-menu {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 0 2em;
-  width: 90%;
 }
 
 .candidater a {
@@ -259,11 +257,13 @@ main {
   left: 0;
   width: 60%;
 }
-.formations section:nth-child(4) button {
+.formations section:nth-child(2) button {
   background-color: var(--orange);
 }
-.formations section:nth-child(4) .illus .bg {
+.formations section:nth-child(2) .illus .bg {
   background-color: var(--orange);
+  bottom: -8vh;
+  right: -2vh;
 }
 
 footer {
@@ -997,8 +997,11 @@ button:hover {
     display: flex;
     flex-direction: column;
     padding: 5vh 0;
-    height: 50vh;
+    height: 55vh;
     justify-content: space-between;
+  }
+  footer .reseaux {
+    display: none;
   }
   footer .content {
     display: flex;
@@ -1094,6 +1097,62 @@ button:hover {
   .button_ecologica .button_infos_orange {
     background-color: var(--orange);
   }
+  .formations {
+    display: flex;
+    flex-direction: column;
+    height: 580vh;
+  }
+  .formations .fond {
+    width: 200%;
+    left: -10vh;
+    height: 180vh;
+    top: 10vh;
+  }
+  .formations .fond2 {
+    width: 200%;
+    left: -10vh;
+    height: 180vh;
+    bottom: 10vh;
+  }
+  .formations section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  .formations section .left {
+    width: 100%;
+  }
+  .formations section .left h2 {
+    margin-bottom: 2vh;
+  }
+  .formations section .left a {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+  .formations section .left a button {
+    width: 50%;
+  }
+  .formations section .illus {
+    width: 100%;
+  }
+  .formations section .illus img {
+    width: 90%;
+  }
+  .formations section .illus .bg {
+    bottom: -10vh;
+    left: -1vh;
+    width: 90%;
+  }
+  .formations section:nth-child(2) .illus {
+    margin-bottom: 15vh;
+  }
+  .formations section:nth-child(2) img {
+    width: 80%;
+  }
+  .formations section:nth-child(2) .bg {
+    width: 80%;
+  }
 }
 .background-pedagogie {
   margin-top: 6em;
@@ -1120,17 +1179,6 @@ button:hover {
   line-height: 2em;
   text-align: justify;
 }
-.background-pedagogie .background-blue {
-  background-color: #B0DFD9;
-  opacity: 30%;
-  width: 110%;
-  height: 65vh;
-  position: absolute;
-  transform: rotate(-5deg);
-  left: -5%;
-  z-index: -2;
-  top: -15%;
-}
 
 .burger {
   display: none;
@@ -1143,6 +1191,17 @@ button:hover {
   }
   .ecologica-menu .logo-menu ul a {
     font-size: smaller;
+  }
+  .background-blue {
+    background-color: #B0DFD9;
+    opacity: 30%;
+    width: 110%;
+    height: 62vh;
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -5%;
+    z-index: -2;
+    top: -15%;
   }
 }
 .candidater a {

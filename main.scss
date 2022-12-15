@@ -45,10 +45,8 @@ main {
   }
   .logo-menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 0 2em;
-    width: 90%;
   }
 }
 
@@ -296,7 +294,7 @@ main {
     }
   }
 
-  section:nth-child(4) {
+  section:nth-child(2) {
 
     button {
       background-color: var(--orange);
@@ -306,6 +304,8 @@ main {
 
       .bg {
         background-color: var(--orange);
+        bottom: -8vh;
+        right: -2vh;
       }
     }
   }
@@ -522,8 +522,8 @@ footer {
   border-bottom: black solid 1px;
   display: flex;
   justify-content: space-between;
-	height: 15vh;
-	width: 9000px;
+  height: 15vh;
+  width: 9000px;
   overflow-x: hidden;
 
   img {
@@ -1172,8 +1172,12 @@ button:hover{
     display: flex;
     flex-direction: column;
     padding: 5vh 0;
-    height: 50vh;
+    height: 55vh;
     justify-content: space-between;
+
+    .reseaux {
+      display: none;
+    }
 
     .content {
       display: flex;
@@ -1232,7 +1236,6 @@ button:hover{
     }
   }
 
-
   .card_ecologica{
     display: none;
   }
@@ -1285,6 +1288,81 @@ button:hover{
     background-color: var(--orange);
   }
   }
+
+  .formations {
+    display: flex;
+    flex-direction: column;
+    height: 580vh;
+
+    .fond {
+      width: 200%;
+      left: -10vh;
+      height: 180vh;
+      top: 10vh;
+    }
+
+    .fond2 {
+      width: 200%;
+      left: -10vh;
+      height: 180vh;
+      bottom: 10vh;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10vh;
+
+      .left {
+        width: 100%;
+
+        h2 {
+          margin-bottom: 2vh;
+        }
+
+        a {
+          margin-top: 5vh;
+          margin-bottom: 5vh;
+          width: 100%;
+
+          button {
+            width: 50%;
+          }
+        }
+      }
+
+      .illus {
+        width: 100%;
+
+        img {
+          // margin: 10vh 0;
+          width: 90%;
+        }
+
+        .bg {
+          bottom: -10vh;
+          left: -1vh;
+          width: 90%;
+        }
+      }
+    }
+
+    section:nth-child(2){
+
+      .illus {
+        margin-bottom: 15vh;
+      }
+
+      img {
+        width: 80%;
+      }
+
+      .bg {
+        width: 80%;
+      }
+    }
+
+  }
 }
 
 .background-pedagogie {
@@ -1315,19 +1393,7 @@ button:hover{
         }
       }
     }
-  }
-
-  .background-blue {
-    background-color: #B0DFD9;
-    opacity: 30%;
-    width: 110%;
-    height: 65vh;
-    position: absolute;
-    transform: rotate(-5deg);
-    left: -5%;
-    z-index: -2;
-    top: -15%;
-  }
+  }  
 }
 
 
@@ -1348,6 +1414,18 @@ button:hover{
         }
       }
     }
+  }
+
+  .background-blue {
+    background-color: #B0DFD9;
+    opacity: 30%;
+    width: 110%;
+    height: 62vh;
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -5%;
+    z-index: -2;
+    top: -15%;
   }
 }
   .candidater a {
