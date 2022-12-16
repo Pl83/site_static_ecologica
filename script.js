@@ -17,6 +17,8 @@ burger.addEventListener("click", function() {
     ulnav.style.display = "none";
     candidater.style.display = "none";
 
+
+
     D1.style.display = "block";
     D2.classList.remove("D2CC");
 
@@ -37,10 +39,25 @@ burger.addEventListener("click", function() {
     }
     BobUnRotateSomething()
 
+
+    ecologicamenu.style.zIndex = "0";
+
+
+    setTimeout(function(){
+      ecologicamenu.style.position ="static";
+    }, 85);
+
   } else {
 
-    ulnav.style.display = "flex";
-    candidater.style.display = "flex";
+    ecologicamenu.style.position ="absolute";
+    ecologicamenu.style.top = "0";
+    ecologicamenu.style.zIndex = "10";
+
+
+    setTimeout(function(){
+      ulnav.style.display = "flex";
+      candidater.style.display = "flex";
+    }, 85);
 
     D1.style.display = "none";
     D2.classList.add("D2CC");

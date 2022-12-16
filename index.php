@@ -123,7 +123,7 @@
 
 <div class="scroll">
 
-<section class="first slider">
+<section class="first slider" aria-hidden="true" >
   <img src="img/slider/DABBA.png" alt="">
   <img src="img/slider/generation-lumiere.jpeg" alt="">
   <img src="img/slider/graines-electroniques.png" alt="">
@@ -256,6 +256,9 @@
     </section>
 </main>
 <script>
+    //A1/A1B -> année 1 bachelor
+    //A3/A3B -> année 3 bachelor
+    //M1/M1B -> année 1 master
     document.getElementById('A1').addEventListener('click', function () {
         document.getElementById('A1B').scrollIntoView({behavior: "smooth"});
     });

@@ -309,7 +309,6 @@ main {
       }
     }
   }
-
 }
 
 footer {
@@ -639,110 +638,6 @@ footer {
     }
   }
 }
-
-.centipede{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  margin-top: 6em;
-  margin-bottom: 18em;
-
-  .chat{
-    margin-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 600px;
-    justify-content: space-between;
-    gap: 3em;
-
-    h1{
-      font-size: 50px;
-    }
-
-    p {
-      font-size: 20px;
-      font-weight: 300;
-      width: 80%;
-    }
-
-    .button{
-      align-self: left;
-      display: flex;
-      gap: 1em;
-      div[class^="input"] {
-        border: 2px solid #293946;
-        border-radius: 4px;
-        padding: 10px;
-        margin: 5px;
-        width: 180px;
-        text-align: center;
-        font-size: 20px;
-      }
-      .input-1{
-        background: #B0DFD9;
-      }
-    }
-  }
-  .chien{
-      position: relative;
-      img{
-          display: flex;
-          position: absolute;
-          z-index: -1;
-          width: 110%;
-      }
-      .miroir{
-        display: flex;
-        width: 400px;
-        .blanc{
-            display: flex;
-            flex-direction: column;
-            border: 2px solid #293946;
-            border-radius: 4px;
-            background: white;
-            width: 310px;
-            margin: auto;
-            height: 323px;
-            position: absolute;
-            top: 225px;
-            left: -150px;
-            h3{
-              border-bottom: 2px solid #293946;
-              font-size: 20px;
-            }
-            h3,li{
-              padding: 15px 20px 15px 20px;
-            }
-            ul{
-              list-style-position: inside;
-            }
-            li{
-              font-size: 14px;
-            }
-        }
-
-        .p_miroir {
-
-            text-decoration: none;
-            background-color: #FB6A35;
-            border: #FB6A35 solid 1px;
-            border-radius: 4px;
-            padding: 10px 30px;
-            font-size: 20px;
-            position: absolute;
-            top: 475px;
-            left: -250px;
-
-            p {
-                color: white;
-            }
-        }
-    }
-
-  }
-}
-
 .presentation_ecologica {
 
   img {
@@ -1790,6 +1685,7 @@ button:hover{
 
 @media only screen and (max-width: 860px) {
   .ecologica-menu {
+    width: 100vw;
     .logo-menu {
       ul {
         display: none;
@@ -1851,6 +1747,8 @@ button:hover{
   }
   .ecologica-menu{
     height: 70px !important;
+    z-index: 0 !important;
+    position: static;
   }
 }
 
