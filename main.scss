@@ -1139,7 +1139,7 @@ button:hover{
     }
     .t2 {
       h3 {
-        font-size: 12px;
+        font-size: 15px;
       }
     }
     .t3 {
@@ -1157,17 +1157,23 @@ button:hover{
   .transition_picture {
     margin-top: 5em;
     width: 70%;
+
     button {
-      font-size: 10px !important;
-      left: -50px !important;
+      font-size: 12px !important;
+      left: -40px !important;
+      top: 70px !important;
     }
+
     img{
       width: 100%;
     }
+
     .webinaire{
-        top: -30px !important;
+        top: -20px !important;
+        left: -30px !important;
+        
       h3{
-        font-size: 9px;
+        font-size: 12px;
       }
     }
   }
@@ -1178,8 +1184,9 @@ button:hover{
     padding: 5vh 0;
     height: 55vh;
     justify-content: space-between;
+    align-items: center;
 
-    .reseaux {
+    ion-icon {
       display: none;
     }
 
@@ -1249,6 +1256,7 @@ button:hover{
     margin: 5em 0 5em 0;
     justify-content: center;
     gap: 0.5em;
+
     button[class^="button_infos"] {
       border: #314C61 solid;
       border-radius: 10px;
@@ -1266,7 +1274,7 @@ button:hover{
               align-items: center;
               gap: 0.2em;
               h2{
-                font-size: 11px;
+                font-size: 12px;
               }
               img {
                 width: 12px;
@@ -1274,7 +1282,7 @@ button:hover{
             }
           }
           h3{
-            font-size: 8px;
+            font-size: 10px;
           }
       }
   }

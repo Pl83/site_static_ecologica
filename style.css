@@ -974,7 +974,7 @@ button:hover {
     font-weight: lighter;
   }
   .transition_ecole .t2 h3 {
-    font-size: 12px;
+    font-size: 15px;
   }
   .transition_ecole .t3 .button_ecole1 {
     font-size: 14px;
@@ -987,17 +987,19 @@ button:hover {
     width: 70%;
   }
   .transition_picture button {
-    font-size: 10px !important;
-    left: -50px !important;
+    font-size: 12px !important;
+    left: -40px !important;
+    top: 70px !important;
   }
   .transition_picture img {
     width: 100%;
   }
   .transition_picture .webinaire {
-    top: -30px !important;
+    top: -20px !important;
+    left: -30px !important;
   }
   .transition_picture .webinaire h3 {
-    font-size: 9px;
+    font-size: 12px;
   }
   footer {
     display: flex;
@@ -1005,8 +1007,9 @@ button:hover {
     padding: 5vh 0;
     height: 55vh;
     justify-content: space-between;
+    align-items: center;
   }
-  footer .reseaux {
+  footer ion-icon {
     display: none;
   }
   footer .content {
@@ -1081,14 +1084,14 @@ button:hover {
     gap: 0.2em;
   }
   .button_ecologica button[class^=button_infos] .div_button .img_bachelor h2 {
-    font-size: 11px;
+    font-size: 12px;
   }
   .button_ecologica button[class^=button_infos] .div_button .img_bachelor img {
     width: 12px;
     height: 11px;
   }
   .button_ecologica button[class^=button_infos] .div_button h3 {
-    font-size: 8px;
+    font-size: 10px;
   }
   .button_ecologica .vector {
     width: 30px;
