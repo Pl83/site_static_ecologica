@@ -246,22 +246,22 @@ main {
   right: 25vh;
 }
 .formations section:nth-child(3) button {
-  background-color: var(--jaune);
+  background-color: var(--orange);
 }
 .formations section:nth-child(3) .illus .bg {
-  background-color: var(--jaune);
+  background-color: var(--orange);
   right: 0;
-  bottom: -5vh;
+  bottom: 5vh;
 }
 .formations section:nth-child(3) .illus img {
   left: 0;
   width: 60%;
 }
 .formations section:nth-child(2) button {
-  background-color: var(--orange);
+  background-color: var(--jaune);
 }
 .formations section:nth-child(2) .illus .bg {
-  background-color: var(--orange);
+  background-color: var(--jaune);
   bottom: -8vh;
   right: -2vh;
 }
@@ -760,6 +760,34 @@ footer section:nth-child(2) ul li ion-icon {
   flex-direction: column;
 }
 
+.formulaire {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.formulaire .illus img {
+  width: 50%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.formulaire .btn_form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 5vh;
+}
+.formulaire .btn_form button {
+  background-color: var(--orange);
+  width: 30%;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: var(--br);
+  color: white;
+  margin: 0 0 0 15px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -848,13 +876,15 @@ footer section:nth-child(2) ul li ion-icon {
 .form .candidature form div input:focus {
   outline: none;
 }
-.form .candidature button {
-  background-color: var(--orange);
-  width: 30%;
-  padding: 0.5em 1em;
-  border: none;
-  border-radius: var(--br);
-  color: white;
+.form .candidature form .year {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: space-between;
+}
+.form .candidature form .year div {
+  display: flex;
+  flex-direction: row;
 }
 .form .candidature .active {
   background-color: white;
@@ -863,12 +893,18 @@ footer section:nth-child(2) ul li ion-icon {
 }
 .form .candidature2 {
   display: none;
+  margin-top: 5vh;
+  flex-direction: column;
+  width: 100%;
+  height: 75vh;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 .form .candidature2 form {
-  margin: 5vh 0 2em 0;
-  padding: 1em;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 65vh;
   justify-content: space-between;
 }
 .form .candidature2 form div {
@@ -876,32 +912,27 @@ footer section:nth-child(2) ul li ion-icon {
   flex-direction: column;
   width: 100%;
   justify-content: space-between;
-  gap: 1em;
-  margin-top: 2em;
+  height: 12vh;
 }
 .form .candidature2 form div label {
   font-size: 16px;
   font-weight: 300;
+  width: 50vh;
+  margin-bottom: 2vh;
 }
 .form .candidature2 form div input {
   border: #A4A4A4 1px solid;
   border-radius: var(--br);
   padding: 0.5em 1em;
-  width: 60%;
-  height: 15vh;
+  width: 50vh;
+  min-height: 8vh;
 }
 .form .candidature2 form div input:focus {
   outline: none;
 }
-.form .candidature2 button {
-  color: white;
-  text-decoration: none;
-  background: linear-gradient(180deg, #FF8D45 0%, #FB6A35 100%);
-  border: #FB6A35 solid 1px;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 14px;
-  margin-left: 6em;
+.form .candidature2 .btn_form {
+  width: 35%;
+  margin-top: 5vh;
 }
 .form .candidature3 {
   display: none;
@@ -916,7 +947,7 @@ footer section:nth-child(2) ul li ion-icon {
 .form .candidature3 form div {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
   justify-content: space-between;
   gap: 1em;
 }
@@ -939,15 +970,12 @@ footer section:nth-child(2) ul li ion-icon {
   font-weight: 400;
   width: 60%;
 }
-.form .candidature3 button {
-  color: white;
-  text-decoration: none;
-  background: linear-gradient(180deg, #FF8D45 0%, #FB6A35 100%);
-  border: #FB6A35 solid 1px;
-  border-radius: 4px;
-  padding: 10px 20px;
-  font-size: 14px;
-  margin-left: 46%;
+.form .candidature3 .btn_form {
+  width: 35%;
+  margin-top: 5vh;
+}
+.form .candidature3 .btn_form button {
+  width: 100%;
 }
 
 button:hover {
