@@ -15,10 +15,5 @@ Pour le SASS instalez SASS puis utilisez la commande ``` sass --watch main.scss:
 
 ## Resources
 
-Please join the mailing list [here](https://lists.sourceforge.net/lists/listinfo/motion-user)
-
-We prefer support through the mailing list because more people will have the benefit from the answers.
-A archive of mailing list discussions can be viewed [here](https://sourceforge.net/p/motion/mailman/motion-user/)
-
 Vous pouvez nous joindre par E-mail <a target="_blank" href="mailto:pierre-louis.sans@edu.devinci.fr">Ici</a>
 
