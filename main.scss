@@ -750,7 +750,7 @@ footer {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 32px;
     color: #FB6A35;
     text-align: center;
     margin-top: 1em;
@@ -763,11 +763,11 @@ footer {
         padding: 4em 8em;
     
         h3 {
-            font-size: 32px;
+            font-size: 24px;
         }
     
         p {
-            font-size: 20px;
+            font-size: 18px;
             color: #000000;
             line-height: 2em;
             text-align: justify;
@@ -775,9 +775,55 @@ footer {
     }
 }
 
+.background-pedagogie {
+  margin-top: 8em;
+  position: relative;
+
+  .background-blue {
+    background-color: #B0DFD9;
+    opacity: 30%;
+    width: 110%;
+    height: 70vh;
+    position: absolute;
+    transform: rotate(-5deg);
+    left: -5%;
+    z-index: -2;
+    top: -10%;
+  }
+
+  .pedagogie-ecologica {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 2em 6em;
+  
+    div {
+      img {
+        width: 40%;
+      }
+      div {
+        padding: 2em 8em;
+        h3 {
+          font-size: 18px;
+          margin-bottom: 1em;
+        }
+        
+        p {
+          font-size: 16px;
+          line-height: 2em;
+          text-align: justify;
+        }
+      }
+    }
+  }  
+}
+
+
 .societe-ecologica-relative {
   position: relative;
+
   .societe-ecologica {
+
     div {
       display: flex;
       flex-direction: column;
@@ -788,12 +834,12 @@ footer {
       margin-top: 10em;
   
       p {
-        font-size: 20px;
+        font-size: 18px;
         color: #000000;
       }
   
       h2 {
-        font-size: 32px;
+        font-size: 24px;
         margin: 2em 0;
       }
     }
@@ -803,29 +849,40 @@ footer {
     img {
       position: absolute;
       right: 0;
-      bottom: -5%;
+      bottom: 5%;
       width: 15%;
+      z-index: -1;
     }
   }
 }
 
 .plan-campus {
-
   position: relative;
+  width: 83%;
+  margin: auto;
+  // padding: 4em 8em 6em 8em;
 
-  padding: 4em 8em 6em 8em;
   h2 {
       margin-bottom: 2em;
   }
 
   .flex-map-campus {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    margin: auto;
+
+    img {
+      border-radius: var(--br);
+      border: 2px solid var(--font);
+      width: 90%;
+    }
   }
 
   h3 {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .contact-page {
@@ -834,18 +891,33 @@ footer {
     gap: 2em;
     padding-right: 14em;
     justify-content: center;
+    width: 50%;
+
+    h3 {
+      display: flex;
+      flex-direction: row;
+      font-size: 24px;
+      width: 80%;
+      align-items: center;
+
+      svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 2vh;
+      }
+    }
   }
 
   .background-blue {
     background-color: #B0DFD9;
     opacity: 30%;
-    width: 110%;
+    width: 200%;
     height: 55vh;
     position: absolute;
     transform: rotate(-5deg);
-    left: -5%;
+    left: -55%;
     z-index: -2;
-    bottom: 5%;
+    bottom: -7%;
   }
 }
 
@@ -878,7 +950,7 @@ footer {
       p {
         text-align: justify;
         padding: 1em 6em;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 2em;
       }
 
@@ -1417,51 +1489,115 @@ button:hover{
     }
 
   }
-}
 
-.background-pedagogie {
-  margin-top: 8em;
-  position: relative;
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
-  .background-blue {
-    background-color: #B0DFD9;
-    opacity: 30%;
-    width: 110%;
-    height: 70vh;
-    position: absolute;
-    transform: rotate(-5deg);
-    left: -5%;
-    z-index: -2;
-    top: -25%;
-  }
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin-top: 5vh;
 
-  .pedagogie-ecologica {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    padding: 2em 6em;
-  
-    div {
-      img {
-        width: 40%;
-      }
-      div {
-        padding: 2em 8em;
-        h3 {
-          font-size: 20px;
-          margin-bottom: 1em;
+      .haut {
+        width: 90%;
+        height: 40vh;
+        justify-content: space-between;
+
+        img {
+          width: 100%;
         }
-        
-        p {
-          font-size: 16px;
-          line-height: 2em;
-          text-align: justify;
+  
+        .txt {
+          width: 100%;
+
+          h2 {
+            margin: 2vh 0;
+          }
+        }
+
+        .cta {
+          margin-top: 15vh;
+          width: 100%;
+          justify-content: space-between;
+
+          button {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .candidature {
+        width: 100%;
+
+        .year {
+          width: 100%;
+
+          div {
+            width: 100%;
+            margin: 0;
+            align-items: flex-start;
+
+            label {
+              width: 100%;
+            }
+
+            input {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+
+      .candidature2 {
+        width: 100%;
+
+        .btn_form {
+          width: 100%;
+
+          button {
+            width: 30%;
+          }
+        }
+      }
+
+      .candidature3 {
+        width: 100%;
+
+        form {
+          width: 100%;
+
+          div {
+            width: 100%;
+
+            input {
+              width: 100%;
+            }
+
+            p {
+              width: 100%;
+            }
+          }
+        }
+
+        .btn_form {
+          width: 100%;
+
+          button {
+            width: 100%;
+          }
         }
       }
     }
-  }  
-}
 
+    .illus {
+      display: none;
+    }
+  }
+}
 
 .burger{
   display: none;
