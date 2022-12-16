@@ -85,8 +85,8 @@
             </div>
           </form>
           <div class="btn_form">
-            <button class="tablinks">Retour</button>
-            <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Suivant</button>
+            <button id="back">Retour</button>
+            <button type="submit" class="tablinks" onclick="openPart(event, 'motivation')">Suivant</button>
           </div>
         </div>
 
@@ -113,8 +113,8 @@
                 </div>
             </form>
             <div class="btn_form">
-              <button class="tablinks">Retour</button>
-              <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Suivant</button>
+              <button class="tablinks" onclick="openPart(event, 'candidation')">Retour</button>
+              <button type="submit" class="tablinks" onclick="openPart(event, 'lien')">Suivant</button>
           </div>
 
         </div>
@@ -128,8 +128,8 @@
             </div>
           </form>
           <div class="btn_form">
-            <button class="tablinks">Retour</button>
-            <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Envoyer votre Candidature</button>
+            <button class="tablinks" onclick="openPart(event, 'motivation')">Retour</button>
+            <button type="submit" id="sendit" >Envoyer votre Candidature</button>
           </div>
         </div>
     </div>
@@ -155,5 +155,8 @@
     //auclic sur le bouton avec l'id sendit on redirige vers la page reception_candidature.php
     document.querySelector("#sendit").addEventListener("click", function(){
         window.location.href = "reception_candidature.php";
+    });
+    document.querySelector("#back").addEventListener("click", function(){
+        window.location.href = "index.php";
     });
 </script>
