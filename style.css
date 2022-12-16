@@ -1334,6 +1334,140 @@ button:hover {
   .formulaire .illus {
     display: none;
   }
+  .presentation_ecologica {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .presentation_ecologica img {
+    width: 200%;
+  }
+  .presentation_ecologica h2 {
+    font-size: 28px;
+    width: 90%;
+    margin: auto;
+    margin: 5vh 0 -5vh 0;
+  }
+  .presentation_ecologica div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 4em 0;
+  }
+  .presentation_ecologica div h3 {
+    width: 100%;
+    font-size: 22px;
+  }
+  .presentation_ecologica div p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .background-pedagogie {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .background-pedagogie .background-blue {
+    height: 190vh;
+    margin-top: -5vh;
+    width: 300%;
+    margin-left: -20vh;
+  }
+  .background-pedagogie .pedagogie-ecologica {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -15vh;
+    padding: 2em;
+  }
+  .background-pedagogie .pedagogie-ecologica div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .background-pedagogie .pedagogie-ecologica div img {
+    width: 60%;
+  }
+  .background-pedagogie .pedagogie-ecologica div div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+  }
+  .societe-ecologica-relative {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .societe-ecologica-relative .societe-ecologica div {
+    padding: 8em 0 4em 0;
+    width: 90%;
+    margin: auto;
+  }
+  .societe-ecologica-relative .societe-ecologica div h2 {
+    margin: 0;
+  }
+  .societe-ecologica-relative div img {
+    display: none;
+  }
+  .plan-campus {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .plan-campus .flex-map-campus {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-campus .contact-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-top: 5vh;
+  }
+  .plan-campus .contact-page h3 {
+    font-size: 18px;
+  }
+  .equipe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+  }
+  .equipe h2 {
+    margin: 0;
+    width: 90%;
+    margin: auto;
+  }
+  .equipe .flex-equipe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding: 0;
+  }
+  .equipe .flex-equipe div {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .equipe .flex-equipe div img {
+    margin: 2em 0;
+  }
+  .equipe .flex-equipe div h3 {
+    margin-bottom: 2vh;
+  }
+  .equipe .flex-equipe div p {
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+  }
 }
 .burger {
   display: none;
