@@ -1417,6 +1417,74 @@ button:hover{
     }
 
   }
+
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin-top: 5vh;
+
+      .haut {
+        width: 90%;
+        height: 40vh;
+        justify-content: space-between;
+
+        img {
+          width: 100%;
+        }
+  
+        .txt {
+          width: 100%;
+
+          h2 {
+            margin: 2vh 0;
+          }
+        }
+
+        .cta {
+          margin-top: 15vh;
+          width: 100%;
+          justify-content: space-between;
+
+          button {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .candidature {
+        width: 100%;
+
+        .year {
+          width: 100%;
+
+          div {
+            width: 100%;
+            margin: 0;
+            align-items: flex-start;
+
+            label {
+              width: 100%;
+            }
+
+            input {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .illus {
+      display: none;
+    }
+  }
 }
 
 .background-pedagogie {

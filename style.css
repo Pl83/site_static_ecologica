@@ -1190,6 +1190,60 @@ button:hover {
   .formations section:nth-child(2) .bg {
     width: 80%;
   }
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .formulaire .form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5vh;
+  }
+  .formulaire .form .haut {
+    width: 90%;
+    height: 40vh;
+    justify-content: space-between;
+  }
+  .formulaire .form .haut img {
+    width: 100%;
+  }
+  .formulaire .form .haut .txt {
+    width: 100%;
+  }
+  .formulaire .form .haut .txt h2 {
+    margin: 2vh 0;
+  }
+  .formulaire .form .haut .cta {
+    margin-top: 15vh;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .formulaire .form .haut .cta button {
+    font-size: 15px;
+  }
+  .formulaire .form .candidature {
+    width: 100%;
+  }
+  .formulaire .form .candidature .year {
+    width: 100%;
+  }
+  .formulaire .form .candidature .year div {
+    width: 100%;
+    margin: 0;
+    align-items: flex-start;
+  }
+  .formulaire .form .candidature .year div label {
+    width: 100%;
+  }
+  .formulaire .form .candidature .year div input {
+    width: 15px;
+    height: 15px;
+  }
+  .formulaire .illus {
+    display: none;
+  }
 }
 .background-pedagogie {
   margin-top: 8em;
