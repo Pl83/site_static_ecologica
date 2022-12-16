@@ -17,8 +17,8 @@
 
 
             <ul class="ulnav">
-                <a href="index.php">Accueil</a>
-                <a href="admissions_formations.php">Admissions & formations</a>
+                <a href="">Accueil</a>
+                <a href="index.php">Admissions & formations</a>
                 <a href="ecologica.php">Ecologica</a>
                 <a href="partenaires.php">Partenaires</a>
                 <a href="contact.php">Contact</a>
