@@ -275,16 +275,16 @@ main {
   section:nth-child(3) {
 
     button {
-      background-color: var(--jaune);
+      background-color: var(--orange);
 
     }
 
     .illus {
 
       .bg {
-        background-color: var(--jaune);
+        background-color: var(--orange);
         right: 0;
-        bottom: -5vh;
+        bottom: 5vh;
       }
 
       img {
@@ -297,13 +297,13 @@ main {
   section:nth-child(2) {
 
     button {
-      background-color: var(--orange);
+      background-color: var(--jaune);
     }
 
     .illus {
 
       .bg {
-        background-color: var(--orange);
+        background-color: var(--jaune);
         bottom: -8vh;
         right: -2vh;
       }
@@ -909,6 +909,7 @@ footer {
     flex-direction: row;
     width: 100%;
     justify-content: flex-end;
+    margin-top: 5vh;
 
     button {
       background-color: var(--orange);
