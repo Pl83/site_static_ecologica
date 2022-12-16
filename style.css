@@ -1155,6 +1155,13 @@ button:hover {
   .formations section:nth-child(2) .bg {
     width: 80%;
   }
+  .formations section:nth-child(3) .illus {
+    margin-top: 10vh;
+  }
+  .formations section:nth-child(3) .illus img {
+    margin-bottom: 10vh;
+    width: 90%;
+  }
   .formulaire {
     display: flex;
     flex-direction: column;

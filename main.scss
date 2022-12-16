@@ -1383,6 +1383,16 @@ button:hover{
       }
     }
 
+    section:nth-child(3){
+      .illus {
+        margin-top: 10vh;
+        img {
+          margin-bottom: 10vh;
+          width: 90%;
+        }
+      }
+    }
+
   }
 
   .formulaire {
