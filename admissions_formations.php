@@ -216,7 +216,7 @@
       
       <div class="fond2"></div>
       <div class="left">
-        <h2>Bachelor Premiere Année</h2>
+        <h2>Master Premiere Année</h2>
 
         <div class="txt">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea itaque minus? Adipisci beatae consequatur dolorum nemo qui quo ratione reprehenderit soluta! Adipisci excepturi ipsum labore necessitatibus nisi porro totam unde voluptas voluptatibus?

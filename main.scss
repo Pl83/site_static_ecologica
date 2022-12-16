@@ -956,14 +956,16 @@ footer {
     display: flex;
     flex-direction: column;
     width: 35%;
-    height: 55vh;
+    //height: 55vh;
+    height: 75vh;
     justify-content: space-between;
     align-items: flex-end;
 
     form {
       display: flex;
       flex-direction: column;
-      height: 45vh;
+      //height: 45vh;
+      height: 65vh;
       justify-content: space-between;
 
       div {

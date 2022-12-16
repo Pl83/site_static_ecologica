@@ -26,7 +26,7 @@
 
         </div>
         <div class="candidater">
-            <a href="inscription.php">Candidatez</a>
+            <a href="form.php">Candidatez</a>
         </div>
         <section class="burger">
             <div class="D1"></div>
