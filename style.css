@@ -642,7 +642,7 @@ footer section:nth-child(2) ul li ion-icon {
   width: 100%;
 }
 .presentation_ecologica h2 {
-  font-size: 36px;
+  font-size: 32px;
   color: #FB6A35;
   text-align: center;
   margin-top: 1em;
@@ -654,11 +654,48 @@ footer section:nth-child(2) ul li ion-icon {
   padding: 4em 8em;
 }
 .presentation_ecologica div h3 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .presentation_ecologica div p {
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.background-pedagogie {
+  margin-top: 8em;
+  position: relative;
+}
+.background-pedagogie .background-blue {
+  background-color: #B0DFD9;
+  opacity: 30%;
+  width: 110%;
+  height: 70vh;
+  position: absolute;
+  transform: rotate(-5deg);
+  left: -5%;
+  z-index: -2;
+  top: -10%;
+}
+.background-pedagogie .pedagogie-ecologica {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding: 2em 6em;
+}
+.background-pedagogie .pedagogie-ecologica div img {
+  width: 40%;
+}
+.background-pedagogie .pedagogie-ecologica div div {
+  padding: 2em 8em;
+}
+.background-pedagogie .pedagogie-ecologica div div h3 {
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+.background-pedagogie .pedagogie-ecologica div div p {
+  font-size: 16px;
   line-height: 2em;
   text-align: justify;
 }
@@ -676,34 +713,44 @@ footer section:nth-child(2) ul li ion-icon {
   margin-top: 10em;
 }
 .societe-ecologica-relative .societe-ecologica div p {
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 .societe-ecologica-relative .societe-ecologica div h2 {
-  font-size: 32px;
+  font-size: 24px;
   margin: 2em 0;
 }
 .societe-ecologica-relative div img {
   position: absolute;
   right: 0;
-  bottom: -5%;
+  bottom: 5%;
   width: 15%;
+  z-index: -1;
 }
 
 .plan-campus {
   position: relative;
-  padding: 4em 8em 6em 8em;
+  width: 83%;
+  margin: auto;
 }
 .plan-campus h2 {
   margin-bottom: 2em;
 }
 .plan-campus .flex-map-campus {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.plan-campus .flex-map-campus img {
+  border-radius: var(--br);
+  border: 2px solid var(--font);
+  width: 90%;
 }
 .plan-campus h3 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .plan-campus .contact-page {
   display: flex;
@@ -711,17 +758,30 @@ footer section:nth-child(2) ul li ion-icon {
   gap: 2em;
   padding-right: 14em;
   justify-content: center;
+  width: 50%;
+}
+.plan-campus .contact-page h3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  width: 80%;
+  align-items: center;
+}
+.plan-campus .contact-page h3 svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 2vh;
 }
 .plan-campus .background-blue {
   background-color: #B0DFD9;
   opacity: 30%;
-  width: 110%;
+  width: 200%;
   height: 55vh;
   position: absolute;
   transform: rotate(-5deg);
-  left: -5%;
+  left: -55%;
   z-index: -2;
-  bottom: 5%;
+  bottom: -7%;
 }
 
 .equipe {
@@ -752,7 +812,7 @@ footer section:nth-child(2) ul li ion-icon {
 .equipe .flex-equipe div p {
   text-align: justify;
   padding: 1em 6em;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 2em;
 }
 .equipe .flex-equipe div div {
@@ -1275,43 +1335,6 @@ button:hover {
     display: none;
   }
 }
-.background-pedagogie {
-  margin-top: 8em;
-  position: relative;
-}
-.background-pedagogie .background-blue {
-  background-color: #B0DFD9;
-  opacity: 30%;
-  width: 110%;
-  height: 70vh;
-  position: absolute;
-  transform: rotate(-5deg);
-  left: -5%;
-  z-index: -2;
-  top: -25%;
-}
-.background-pedagogie .pedagogie-ecologica {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-  padding: 2em 6em;
-}
-.background-pedagogie .pedagogie-ecologica div img {
-  width: 40%;
-}
-.background-pedagogie .pedagogie-ecologica div div {
-  padding: 2em 8em;
-}
-.background-pedagogie .pedagogie-ecologica div div h3 {
-  font-size: 20px;
-  margin-bottom: 1em;
-}
-.background-pedagogie .pedagogie-ecologica div div p {
-  font-size: 16px;
-  line-height: 2em;
-  text-align: justify;
-}
-
 .burger {
   display: none;
 }
