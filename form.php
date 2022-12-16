@@ -143,7 +143,7 @@
             <div>
               <label for="lien" >Lien file vert</label>
               <input id="lien" type="text">
-              <p>Pour finaliser votre candidature, rendez-vous sur le site FileVert. Glissez la photocopie de votre dernier diplôme (ou de vos relevés de notes), celle de votre carte d'identité et votre document de motivation. Cliquez sur "Déposer ici vos fichiers", de préférence dans un dossier compressé nommé à votre nom. Cliquez sur "Envoyer".</p>
+              <p>Pour finaliser votre candidature, rendez-vous sur le site FileVert. Glissez la photocopie de votre dernier diplôme (ou de vos relevés de notes), celle de votre carte d'identité et votre document de motivation. Cliquez sur "Déposez ici vos fichiers", de préférence dans un dossier compressé nommé à votre nom. Cliquez sur "Envoyer".</p>
             </div>
           </form>
           <button id="sendit" type="submit">Envoyer votre candidature</button>

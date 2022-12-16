@@ -14,7 +14,7 @@
         </div>
         <div class="t3">
             <button class="button_ecole1">Programmes</button>
-            <button class="button_ecole2">Candidature</button>
+            <a href="form.php"><button class="button_ecole2">Candidater</button></a>
         </div>
     </div>
     <div class="transition_picture">
