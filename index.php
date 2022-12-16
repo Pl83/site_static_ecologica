@@ -256,6 +256,9 @@
     </section>
 </main>
 <script>
+    //A1/A1B -> année 1 bachelor
+    //A3/A3B -> année 3 bachelor
+    //M1/M1B -> année 1 master
     document.getElementById('A1').addEventListener('click', function () {
         document.getElementById('A1B').scrollIntoView({behavior: "smooth"});
     });
