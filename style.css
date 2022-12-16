@@ -1241,6 +1241,36 @@ button:hover {
     width: 15px;
     height: 15px;
   }
+  .formulaire .form .candidature2 {
+    width: 100%;
+  }
+  .formulaire .form .candidature2 .btn_form {
+    width: 100%;
+  }
+  .formulaire .form .candidature2 .btn_form button {
+    width: 30%;
+  }
+  .formulaire .form .candidature3 {
+    width: 100%;
+  }
+  .formulaire .form .candidature3 form {
+    width: 100%;
+  }
+  .formulaire .form .candidature3 form div {
+    width: 100%;
+  }
+  .formulaire .form .candidature3 form div input {
+    width: 100%;
+  }
+  .formulaire .form .candidature3 form div p {
+    width: 100%;
+  }
+  .formulaire .form .candidature3 .btn_form {
+    width: 100%;
+  }
+  .formulaire .form .candidature3 .btn_form button {
+    width: 100%;
+  }
   .formulaire .illus {
     display: none;
   }
