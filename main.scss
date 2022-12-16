@@ -1489,6 +1489,7 @@ button:hover{
 
 @media only screen and (max-width: 860px) {
   .ecologica-menu {
+    width: 100vw;
     .logo-menu {
       ul {
         display: none;
@@ -1550,6 +1551,8 @@ button:hover{
   }
   .ecologica-menu{
     height: 70px !important;
+    z-index: 0 !important;
+    position: static;
   }
 }
 

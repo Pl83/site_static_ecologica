@@ -1247,6 +1247,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 860px) {
+  .ecologica-menu {
+    width: 100vw;
+  }
   .ecologica-menu .logo-menu ul {
     display: none;
     flex-direction: column;
@@ -1304,6 +1307,8 @@ button:hover {
   }
   .ecologica-menu {
     height: 70px !important;
+    z-index: 0 !important;
+    position: static;
   }
 }
 @media only screen and (max-width: 450px) {

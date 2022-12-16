@@ -123,7 +123,7 @@
 
 <div class="scroll">
 
-<section class="first slider">
+<section class="first slider" aria-hidden="true" >
   <img src="img/slider/DABBA.png" alt="">
   <img src="img/slider/generation-lumiere.jpeg" alt="">
   <img src="img/slider/graines-electroniques.png" alt="">
