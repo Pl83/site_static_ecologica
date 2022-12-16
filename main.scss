@@ -890,6 +890,38 @@ footer {
   }
 }
 
+.formulaire {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  .illus {
+    img {
+      width: 50%;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+    }
+  }
+
+  .btn_form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+
+    button {
+      background-color: var(--orange);
+      width: 30%;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: var(--br);
+      color: white;
+      margin: 0 0 0 15px;
+    }
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -991,16 +1023,20 @@ footer {
           outline:none;
         }
       }
+
+      .year {
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+        justify-content: space-between;
+
+        div {
+          display: flex;
+          flex-direction: row;
+        }
+      }
     }
 
-    button {
-      background-color: var(--orange);
-      width: 30%;
-      padding: 0.5em 1em;
-      border: none;
-      border-radius: var(--br);
-      color: white;
-    }
 
     .active {
       background-color: white;
@@ -1008,56 +1044,63 @@ footer {
       color: white;
     }
   }
+
   .candidature2 {
     display: none;
+    margin-top: 5vh;
+    // display: flex;
+    flex-direction: column;
+    width: 100%;
+    //height: 55vh;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: flex-end;
+
     form {
-      margin: 5vh 0 2em 0;
-      padding: 1em;
       display: flex;
       flex-direction: column;
+      //height: 45vh;
+      width: 100%;
+      height: 65vh;
       justify-content: space-between;
-  
+
       div {
         display: flex;
         flex-direction: column;
         width: 100%;
         justify-content: space-between;
-        gap: 1em;
-        margin-top: 2em;
-  
+        height: 12vh;
+
         label {
           font-size: 16px;
           font-weight: 300;
+          width: 50vh;
+          margin-bottom: 2vh;
         }
-  
+
         input {
           border: #A4A4A4 1px solid;
           border-radius: var(--br);
           padding: 0.5em 1em;
-          width: 60%;
-          height: 15vh;
+          width: 50vh;
+          min-height: 8vh;
         }
-  
+
         input:focus {
           outline:none;
         }
       }
     }
 
-    button {
-      color: white;
-      text-decoration: none;
-      background: linear-gradient(180deg, #FF8D45 0%, #FB6A35 100%);
-      border: #FB6A35 solid 1px;
-      border-radius: 4px;
-      padding: 10px 20px;
-      font-size: 14px;
-      margin-left: 6em;
+    .btn_form {
+      width: 35%;
+      margin-top: 5vh;
     }
   }
 
   .candidature3 {
     display: none;
+
     form {
       margin: 5vh 0 2em 0;
       padding: 1em;
@@ -1068,7 +1111,7 @@ footer {
       div {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 60%;
         justify-content: space-between;
         gap: 1em;
   
@@ -1097,15 +1140,13 @@ footer {
       }
     }
 
-    button {
-      color: white;
-      text-decoration: none;
-      background: linear-gradient(180deg, #FF8D45 0%, #FB6A35 100%);
-      border: #FB6A35 solid 1px;
-      border-radius: 4px;
-      padding: 10px 20px;
-      font-size: 14px;
-      margin-left: 46%;
+    .btn_form {
+      width: 35%;
+      margin-top: 5vh;
+
+      button {
+        width: 100%;
+      }
     }
   }
 }
@@ -1520,4 +1561,3 @@ button:hover{
     }
   }
 }
-

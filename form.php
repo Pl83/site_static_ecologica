@@ -8,40 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../img/favicon_crop.svg">
-    <style>/* Style the buttons that are used to open the tab content */
-        .cta button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-        }
-
-        /* Change background color of buttons on hover */
-        .cta button:hover {
-            background-color: #ddd;
-        }
-
-        /* Create an active/current tablink class */
-        .cta button.active {
-            background-color: #ccc;
-        }
-
-        /* Style the tab content */
-        .tabcontent {
-            display: none;
-            padding: 6px 12px;
-            border: 1px solid #ccc;
-            border-top: none;
-        }
-
-    </style>
-    <title>Document</title>
 </head>
 <body>
-<main>
+<main class="formulaire">
     <div class="form">
         <div class="haut">
             <img src="img/logo.svg" alt="logo">
@@ -99,16 +68,26 @@
               <label for="etude" >Etude en cours*</label>
               <input id="etude" type="text" required>
             </div>
-              <br>
-                  <p>Rejoindre en année:</p>
-                    <input type="radio" id="html" name="fav_language" value="HTML">
-                    <label for="html">Bachelor Premiere Année</label><br>
-                    <input type="radio" id="css" name="fav_language" value="CSS">
-                    <label for="css">Bachelor Troisième Année</label><br>
-                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                    <label for="javascript">Master Premiere Année</label>
+            <div class="year">
+              <p>Rejoindre en année:</p>
+              <div>
+                <label for="html">Bachelor Premiere Année</label>
+                <input type="radio" id="html" name="fav_language"   value="HTML">
+              </div>
+              <div>
+                <label for="css">Bachelor Troisième Année</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+              </div>
+              <div>
+                <label for="javascript">Master Premiere Année</label>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              </div>
+            </div>
           </form>
-          <button type="submit" class="tablinks" onclick="openPart(event, 'motivation')">Suivant</button>
+          <div class="btn_form">
+            <button class="tablinks">Retour</button>
+            <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Suivant</button>
+          </div>
         </div>
 
         <div class="candidature2 tabcontent" id="motivation">
@@ -133,8 +112,10 @@
                     <input id="personnalite" type="text">
                 </div>
             </form>
-
-            <button type="submit" class="tablinks" onclick="openPart(event, 'lien')">Suivant</button>
+            <div class="btn_form">
+              <button class="tablinks">Retour</button>
+              <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Suivant</button>
+          </div>
 
         </div>
 
@@ -146,8 +127,14 @@
               <p>Pour finaliser votre candidature, rendez-vous sur le site FileVert. Glissez la photocopie de votre dernier diplôme (ou de vos relevés de notes), celle de votre carte d'identité et votre document de motivation. Cliquez sur "Déposez ici vos fichiers", de préférence dans un dossier compressé nommé à votre nom. Cliquez sur "Envoyer".</p>
             </div>
           </form>
-          <button id="sendit" type="submit">Envoyer votre candidature</button>
+          <div class="btn_form">
+            <button class="tablinks">Retour</button>
+            <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Envoyer votre Candidature</button>
+          </div>
         </div>
+    </div>
+    <div class="illus">
+      <img src="img/illu_2.png" alt="">
     </div>
 
 <script>
