@@ -17,16 +17,16 @@
 
 
             <ul class="ulnav">
-                <a href="">Accueil</a>
+                <a href="#">Accueil</a>
                 <a href="index.php">Admissions & formations</a>
                 <a href="ecologica.php">Ecologica</a>
-                <a href="partenaires.php">Partenaires</a>
-                <a href="contact.php">Contact</a>
+                <a href="#">Partenaires</a>
+                <a href="#">Contact</a>
             </ul>
 
         </div>
         <div class="candidater">
-            <a href="inscription.php">Candidater</a>
+            <a href="form.php">Candidater</a>
         </div>
         <section class="burger">
             <div class="D1"></div>
