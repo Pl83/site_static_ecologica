@@ -37,7 +37,7 @@ burger.addEventListener("click", function() {
     }
     BobUnRotateSomething()
 
-  } else {  //eeeeeeeeeeeellllllllllllllllllllllssssssssssssseeeeeeeeeeee
+  } else {
 
     ulnav.style.display = "flex";
     candidater.style.display = "flex";

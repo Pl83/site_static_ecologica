@@ -53,13 +53,13 @@
                 </div>
             </div>
             <div class="cta">
-                <button class="active" class="candidation" class="tablinks" onclick="openCity(event, 'London')">Candidature</button>
-                <button class="motivation" class="tablinks" onclick="openCity(event, 'Paris')">Motivation</button>
-                <button class="lien" class="tablinks" onclick="openCity(event, 'Tokyo')">Lien</button>
+                <button class="active" class="candidation" class="tablinks" onclick="openPart(event, 'candidation')">Candidature</button>
+                <button class="motivation" class="tablinks" onclick="openPart(event, 'motivation')">Motivation</button>
+                <button class="lien" class="tablinks" onclick="openPart(event, 'lien')">Lien</button>
             </div>
         </div>
 
-        <div class="candidature tabcontent" id="London">
+        <div class="candidature tabcontent" id="candidation">
           <form action="post">
             <div>
               <label for="civilité" >Civilité*</label>
@@ -108,10 +108,10 @@
                     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
                     <label for="javascript">Master Premiere Année</label>
           </form>
-          <button type="submit" class="tablinks" onclick="openCity(event, 'Paris')">Suivant</button>
+          <button type="submit" class="tablinks" onclick="openPart(event, 'motivation')">Suivant</button>
         </div>
 
-        <div class="candidature2 tabcontent" id="Paris">
+        <div class="candidature2 tabcontent" id="motivation">
             <form action="post">
                 <div>
                     <label for="association" >Si j'étais une association, je serais :</label>
@@ -134,11 +134,11 @@
                 </div>
             </form>
 
-            <button type="submit" class="tablinks" onclick="openCity(event, 'Tokyo')">Suivant</button>
+            <button type="submit" class="tablinks" onclick="openPart(event, 'lien')">Suivant</button>
 
         </div>
 
-        <div class="candidature3 tabcontent" id="Tokyo">
+        <div class="candidature3 tabcontent" id="lien">
           <form action="post">
             <div>
               <label for="lien" >Lien file vert</label>
@@ -151,23 +151,16 @@
     </div>
 
 <script>
-    function openCity(evt, cityName) {
-        // Declare all variables
+    function openPart(evt, cityName) {
         var i, tabcontent, tablinks;
-
-        // Get all elements with class="tabcontent" and hide them
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
         }
-
-        // Get all elements with class="tablinks" and remove the class "active"
         tablinks = document.getElementsByClassName("tablinks");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-
-        // Show the current tab, and add an "active" class to the button that opened the tab
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
     }

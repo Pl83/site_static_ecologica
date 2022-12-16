@@ -443,7 +443,7 @@ footer section:nth-child(2) ul li ion-icon {
   display: flex;
   justify-content: space-between;
   height: 15vh;
-  width: 9000px;
+  width: 12000px;
   overflow-x: hidden;
 }
 .slider img {
@@ -460,7 +460,7 @@ footer section:nth-child(2) ul li ion-icon {
     margin-left: 0px;
   }
   100% {
-    margin-left: -7000px;
+    margin-left: -10000px;
   }
 }
 .bottom {

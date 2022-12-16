@@ -164,6 +164,26 @@
   <img src="img/slider/partenaire9.png" alt="">
   <img src="img/slider/terre-et-humanisme.png" alt="">
   <img src="img/slider/Tous-Elus.png" alt="">
+    <img src="img/slider/DABBA.png" alt="">
+    <img src="img/slider/generation-lumiere.jpeg" alt="">
+    <img src="img/slider/graines-electroniques.png" alt="">
+    <img src="img/slider/Horizon-dailes.png" alt="">
+    <img src="img/slider/institut-de-tramayes.png" alt="">
+    <img src="img/slider/Les-Alchimistes.jpeg" alt="">
+    <img src="img/slider/LOGO-Institut-transitions.png" alt="">
+    <img src="img/slider/mouvement-de-palier.png" alt="">
+    <img src="img/slider/Notre-affaire-a-tous.png" alt="">
+    <img src="img/slider/partenaire1.png" alt="">
+    <img src="img/slider/partenaire2.png" alt="">
+    <img src="img/slider/partenaire3.png" alt="">
+    <img src="img/slider/partenaire4.png" alt="">
+    <img src="img/slider/partenaire5.png" alt="">
+    <img src="img/slider/partenaire6.png" alt="">
+    <img src="img/slider/partenaire7.png" alt="">
+    <img src="img/slider/partenaire8.png" alt="">
+    <img src="img/slider/partenaire9.png" alt="">
+    <img src="img/slider/terre-et-humanisme.png" alt="">
+    <img src="img/slider/Tous-Elus.png" alt="">
 </section>
 </div>
 
