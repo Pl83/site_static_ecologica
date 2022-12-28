@@ -29,7 +29,7 @@
         </div>
 
         <div class="candidature tabcontent" id="candidation">
-          <form action="post">
+          <form method="post" action="">
             <div>
               <label for="civilité" >Civilité*</label>
               <input id="civilité" type="text">
@@ -143,7 +143,7 @@
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
-        }
+        }<
         tablinks = document.getElementsByClassName("tablinks");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
